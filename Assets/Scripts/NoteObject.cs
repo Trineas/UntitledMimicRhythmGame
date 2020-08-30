@@ -8,7 +8,7 @@ public class NoteObject : MonoBehaviour
     public KeyCode keyToPress;
     public int buttonSoundToPlay;
 
-    public GameObject hitEffect, goodEffect, perfectEffect, missEffect;
+    public GameObject hitEffect, missEffect;
 
     void Update()
     {
@@ -19,6 +19,7 @@ public class NoteObject : MonoBehaviour
                 AudioManager.instance.PlaySFX(buttonSoundToPlay);
                 gameObject.SetActive(false);
 
+                //Set Animation for Button pressed
                 if (keyToPress == KeyCode.LeftArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Left");
@@ -40,20 +41,10 @@ public class NoteObject : MonoBehaviour
                     GameManager.instance.playerAnim.SetTrigger("Space");
                 }
 
-                if (Mathf.Abs(transform.position.y) > 0.25)
+                // Set hit accuracy
+                if (Mathf.Abs(transform.position.y) >= 0.25)
                 {
                     Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
-                    GameManager.instance.NormalHit();
-                }
-                else if (Mathf.Abs(transform.position.y) > 0.05f)
-                {
-                    Instantiate(goodEffect, transform.position, hitEffect.transform.rotation);
-                    GameManager.instance.GoodHit();
-                }
-                else
-                {
-                    Instantiate(perfectEffect, transform.position, hitEffect.transform.rotation);
-                    GameManager.instance.PerfectHit();
                 }
             }
         }
@@ -73,6 +64,8 @@ public class NoteObject : MonoBehaviour
         {
             canBePressed = false;
             GameManager.instance.NoteMissed();
+            GameManager.instance.playerAnim.SetTrigger("Missed");
+
             Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
         }
     }

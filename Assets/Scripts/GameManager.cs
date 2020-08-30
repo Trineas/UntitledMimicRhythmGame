@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,36 +11,22 @@ public class GameManager : MonoBehaviour
 
     public AudioSource song;
     public bool startPlaying;
-    public BeatScroller beatScroller;
 
     public float currentPositionInSong;
 
-    public int currentScore;
-    public int scorePerNote = 100;
-    public int scorePerGoodNote = 125;
-    public int scorePerPerfectNote = 150;
-
-    public int currentMultiplier;
-    private int multiplierTracker;
-    public int[] multiplierTresholds;
-
-    public Text scoreText;
-    public Text multiplierText;
-
-    private float totalNotes;
-    private float normalHits, goodHits, perfectHits, missedHits;
-
-    public GameObject resultsScreen;
-    public Text percentHitText, normalsText, goodsText, perfectsText, missesText, rankText, finalScoreText;
-
     public Animator playerAnim, enemyAnim;
+
+    public int currentHealth;
+    private int maxHealth = 5;
+    public Sprite[] healthBarImages;
 
     void Start()
     {
         instance = this;
-        scoreText.text = "Score: 0";
-        currentMultiplier = 1;
-        totalNotes = FindObjectsOfType<NoteObject>().Length;
+        currentHealth = maxHealth;
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -52,121 +40,91 @@ public class GameManager : MonoBehaviour
             currentPositionInSong = 0f;
         }
 
-        if (!startPlaying)
+        if (startPlaying)
         {
-            if (Input.anyKeyDown)
-            {
-                startPlaying = true;
-                beatScroller.hasStarted = true;
+            BeatScroller.instance.hasStarted = true;
 
-                song.Play();
-                enemyAnim.SetTrigger("Set 01");
-            }
-        }
-        else
-        {
-            if (!song.isPlaying && !resultsScreen.activeInHierarchy)
-            {
-                resultsScreen.SetActive(true);
-
-                normalsText.text = normalHits.ToString();
-                goodsText.text = goodHits.ToString();
-                perfectsText.text = perfectHits.ToString();
-                missesText.text = missedHits.ToString();
-
-                float totalHit = normalHits + goodHits + perfectHits;
-                float percentHit = (totalHit / totalNotes) * 100f;
-
-                percentHitText.text = percentHit.ToString("F1") + "%";
-
-                string rankValue = "F";
-
-                if (percentHit > 40f)
-                {
-                    rankValue = "D";
-
-                    if (percentHit > 55f)
-                    {
-                        rankValue = "C";
-
-                        if (percentHit > 70f)
-                        {
-                            rankValue = "B";
-
-                            if (percentHit > 85f)
-                            {
-                                rankValue = "A";
-
-                                if (percentHit == 100f)
-                                {
-                                    rankValue = "S";
-
-                                    if (percentHit == 100f && perfectHits == totalNotes)
-                                    {
-                                        rankValue = "S+";
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
-                rankText.text = rankValue;
-                finalScoreText.text = currentScore.ToString();
-            }
-        }
-    }
-
-    public void NoteHit()
-    {
-        if (currentMultiplier - 1 < multiplierTresholds.Length)
-        {
-            multiplierTracker++;
-
-            if (multiplierTresholds[currentMultiplier - 1] <= multiplierTracker)
-            {
-                multiplierTracker = 0;
-                currentMultiplier++;
-            }
+            song.Play();
+            enemyAnim.SetTrigger("Set 01");
+            startPlaying = false;
         }
 
-        multiplierText.text = "Multiplier: x" + currentMultiplier;
-        scoreText.text = "Score: " + currentScore;
-    }
 
-    public void NormalHit()
-    {
-        currentScore += scorePerNote *currentMultiplier;
-        NoteHit();
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Joystick1Button7))
+        {
+            PauseUnpause();
+        }
 
-        normalHits++;
-    }
-    
-    public void GoodHit()
-    {
-        currentScore += scorePerGoodNote * currentMultiplier;
-        NoteHit();
-
-        goodHits++;
-    }
-
-    public void PerfectHit()
-    {
-        currentScore += scorePerPerfectNote * currentMultiplier;
-        NoteHit();
-
-        perfectHits++;
+        if (currentHealth <= 0)
+        {
+            GameOver();
+        }
     }
 
     public void NoteMissed()
     {
-        Debug.Log("Missed!");
+        currentHealth--;
+        UpdateUI();
+    }
 
-        currentMultiplier = 1;
-        multiplierTracker = 0;
+    public void GameOver()
+    {
+        SceneManager.LoadScene("Test");
+    }
 
-        multiplierText.text = "Multiplier: x" + currentMultiplier;
+    public void PauseUnpause()
+    {
+        if (UIManager.instance.pauseScreen.activeInHierarchy)
+        {
+            UIManager.instance.pauseScreen.SetActive(false);
+            song.UnPause();
+            Time.timeScale = 1f;
 
-        missedHits++;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
+        else
+        {
+            UIManager.instance.pauseScreen.SetActive(true);
+            song.Pause();
+            Time.timeScale = 0f;
+
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.pauseFirstButton);
+        }
+    }
+
+    public void UpdateUI()
+    {
+        switch (currentHealth)
+        {
+            case 5:
+                UIManager.instance.healthImage.sprite = healthBarImages[4];
+                break;
+
+            case 4:
+                UIManager.instance.healthImage.sprite = healthBarImages[3];
+                break;
+
+            case 3:
+                UIManager.instance.healthImage.sprite = healthBarImages[2];
+                break;
+
+            case 2:
+                UIManager.instance.healthImage.sprite = healthBarImages[1];
+                break;
+
+            case 1:
+                UIManager.instance.healthImage.sprite = healthBarImages[0];
+                break;
+
+            case 0:
+                UIManager.instance.healthImage.enabled = false;
+                break;
+        }
     }
 }
