@@ -6,7 +6,7 @@ public class NoteObject : MonoBehaviour
 {
     public bool canBePressed;
     public KeyCode keyToPress;
-    public int buttonSoundToPlay;
+    public int buttonSoundToPlay, missSound;
 
     public GameObject hitEffect, missEffect;
 
@@ -67,6 +67,7 @@ public class NoteObject : MonoBehaviour
             GameManager.instance.playerAnim.SetTrigger("Missed");
 
             Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+            AudioManager.instance.PlaySFX(missSound);
         }
     }
 }

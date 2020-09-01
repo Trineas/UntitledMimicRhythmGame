@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            GameOver();
+            StartCoroutine(GameOverCo());
         }
     }
 
@@ -67,9 +67,13 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
-    public void GameOver()
+    IEnumerator GameOverCo()
     {
-        SceneManager.LoadScene("Test");
+        UIManager.instance.fadeToBlack = true;
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene("OverworldTest");
     }
 
     public void PauseUnpause()
@@ -103,27 +107,27 @@ public class GameManager : MonoBehaviour
         switch (currentHealth)
         {
             case 5:
-                UIManager.instance.healthImage.sprite = healthBarImages[4];
+                UIManager.instance.healthImage.sprite = healthBarImages[5];
                 break;
 
             case 4:
-                UIManager.instance.healthImage.sprite = healthBarImages[3];
+                UIManager.instance.healthImage.sprite = healthBarImages[4];
                 break;
 
             case 3:
-                UIManager.instance.healthImage.sprite = healthBarImages[2];
+                UIManager.instance.healthImage.sprite = healthBarImages[3];
                 break;
 
             case 2:
-                UIManager.instance.healthImage.sprite = healthBarImages[1];
+                UIManager.instance.healthImage.sprite = healthBarImages[2];
                 break;
 
             case 1:
-                UIManager.instance.healthImage.sprite = healthBarImages[0];
+                UIManager.instance.healthImage.sprite = healthBarImages[1];
                 break;
 
             case 0:
-                UIManager.instance.healthImage.enabled = false;
+                UIManager.instance.healthImage.sprite = healthBarImages[0];
                 break;
         }
     }

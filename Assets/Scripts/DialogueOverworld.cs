@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
-public class Dialogue : MonoBehaviour
+public class DialogueOverworld : MonoBehaviour
 {
-    public static Dialogue instance;
+    public static DialogueOverworld instance;
 
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -18,7 +19,6 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         instance = this;
-        StartCoroutine(Type());
     }
 
     void Update()
@@ -40,11 +40,21 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator Type()
     {
-        foreach(char letter in sentences[index].ToCharArray())
+        foreach (char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+    }
+
+    IEnumerator SceneTransition()
+    {
+        UIManager.instance.fadeToBlack = true;
+
+        yield return new WaitForSeconds(2f);
+
+        DialogueTrigger.instance.isInteracting = false;
+        SceneManager.LoadScene("CombatTest");
     }
 
     public void NextSentence()
@@ -64,7 +74,8 @@ public class Dialogue : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
-            GameManager.instance.startPlaying = true;
+            StartCoroutine(SceneTransition());
+
         }
         else
         {

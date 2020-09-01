@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
+
     private Rigidbody rb;
     public float moveSpeed;
 
@@ -18,18 +20,37 @@ public class PlayerController : MonoBehaviour
     public float aheadAmount, aheadSpeed;
 
     public bool canInteract;
+    public bool stopMove;
+
+    public GameObject speechEffect;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        instance = this;
+        canInteract = false;
     }
 
     void Update()
     {
-        // Movement
-        moveInput.x = Input.GetAxisRaw("Horizontal");
-        moveInput.y = Input.GetAxisRaw("Vertical");
-        moveInput.Normalize();
+        if (!stopMove)
+        {
+            // Movement
+            moveInput.x = Input.GetAxisRaw("Horizontal");
+            moveInput.y = Input.GetAxisRaw("Vertical");
+            moveInput.Normalize();
+
+            // Cam Target Look Ahead
+            if (Input.GetAxisRaw("Horizontal") != 0f)
+            {
+                camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * Input.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
+            }
+
+            /*if (Input.GetAxisRaw("Vertical") != 0f)
+            {
+                camTarget.localPosition = new Vector3(camTarget.localPosition.x, camTarget.localPosition.y, Mathf.Lerp(camTarget.localPosition.z, aheadAmount * Input.GetAxisRaw("Vertical"), aheadSpeed * Time.deltaTime));
+            }*/
+        }
 
         rb.velocity = new Vector3(moveInput.x * moveSpeed, rb.velocity.y, moveInput.y * moveSpeed);
 
@@ -60,15 +81,15 @@ public class PlayerController : MonoBehaviour
 
         anim.SetBool("movingBackwards", movingBackwards);
 
-        // Cam Target Look Ahead
-        if (Input.GetAxisRaw("Horizontal") != 0f)
+        //Interact
+        if (canInteract)
         {
-            camTarget.localPosition = new Vector3(Mathf.Lerp(camTarget.localPosition.x, aheadAmount * Input.GetAxisRaw("Horizontal"), aheadSpeed * Time.deltaTime), camTarget.localPosition.y, camTarget.localPosition.z);
+            speechEffect.SetActive(true);
         }
 
-        if (Input.GetAxisRaw("Vertical") != 0f)
+        if (speechEffect.activeInHierarchy && !canInteract)
         {
-            camTarget.localPosition = new Vector3(camTarget.localPosition.x, camTarget.localPosition.y, Mathf.Lerp(camTarget.localPosition.z, aheadAmount * Input.GetAxisRaw("Vertical"), aheadSpeed * Time.deltaTime));
+            speechEffect.SetActive(false);
         }
     }
 }
