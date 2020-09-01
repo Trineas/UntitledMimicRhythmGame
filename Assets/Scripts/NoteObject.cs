@@ -7,7 +7,6 @@ public class NoteObject : MonoBehaviour
     public bool canBePressed;
     public KeyCode keyToPress;
     public int buttonSoundToPlay, missSound;
-
     public GameObject hitEffect, missEffect;
 
     void Update()
@@ -17,6 +16,7 @@ public class NoteObject : MonoBehaviour
             if (canBePressed)
             {
                 AudioManager.instance.PlaySFX(buttonSoundToPlay);
+                EnemyHealthManager.instance.Hurt();
                 gameObject.SetActive(false);
 
                 //Set Animation for Button pressed

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class DialogueCombat : MonoBehaviour
 {
-    public static Dialogue instance;
+    public static DialogueCombat instance;
 
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
