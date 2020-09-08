@@ -10,8 +10,10 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     public Image blackScreen;
-    public float fadeSpeed = 1f;
-    public bool fadeToBlack, fadeFromBlack;
+    public GameObject dialogueFrame;
+
+    public float blackScreenFadeSpeed = 0.5f, dialogueFrameMoveSpeed;
+    public bool fadeToBlack, fadeFromBlack, fadeToDialogue, fadeFromDialogue;
 
     public Image healthImage;
 
@@ -30,7 +32,7 @@ public class UIManager : MonoBehaviour
     {
         if (fadeToBlack)
         {
-            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.MoveTowards(blackScreen.color.a, 1f, fadeSpeed * Time.deltaTime));
+            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.MoveTowards(blackScreen.color.a, 1f, blackScreenFadeSpeed * Time.deltaTime));
 
             if (blackScreen.color.a == 1f)
             {
@@ -40,11 +42,31 @@ public class UIManager : MonoBehaviour
 
         if (fadeFromBlack)
         {
-            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.MoveTowards(blackScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
+            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.MoveTowards(blackScreen.color.a, 0f, blackScreenFadeSpeed * Time.deltaTime));
 
             if (blackScreen.color.a == 0f)
             {
                 fadeFromBlack = false;
+            }
+        }
+
+        if (fadeToDialogue)
+        {
+            dialogueFrame.transform.position = new Vector3(dialogueFrame.transform.position.x, Mathf.Lerp(dialogueFrame.transform.position.y, 135f, dialogueFrameMoveSpeed * Time.deltaTime), dialogueFrame.transform.position.z);
+
+            if (dialogueFrame.transform.position.y == -405f)
+            {
+                fadeToDialogue = false;
+            }
+        }
+
+        if (fadeFromDialogue)
+        {
+            dialogueFrame.transform.position = new Vector3(dialogueFrame.transform.position.x, Mathf.Lerp(dialogueFrame.transform.position.y, -135f, dialogueFrameMoveSpeed * Time.deltaTime), dialogueFrame.transform.position.z);
+
+            if (dialogueFrame.transform.position.y == -675f)
+            {
+                fadeToDialogue = false;
             }
         }
     }

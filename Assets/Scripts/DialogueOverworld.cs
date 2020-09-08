@@ -47,11 +47,17 @@ public class DialogueOverworld : MonoBehaviour
         }
     }
 
+    IEnumerator StartDelayCo()
+    {
+        yield return new WaitForSeconds(2f);
+        StartCoroutine(Type());
+    }
+
     IEnumerator SceneTransition()
     {
         UIManager.instance.fadeToBlack = true;
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
 
         DialogueTrigger.instance.isInteracting = false;
         SceneManager.LoadScene("CombatTest");
@@ -88,6 +94,7 @@ public class DialogueOverworld : MonoBehaviour
 
     public void StartDialogue()
     {
-        StartCoroutine(Type());
+        UIManager.instance.fadeToDialogue = true;
+        StartCoroutine(StartDelayCo());
     }
 }

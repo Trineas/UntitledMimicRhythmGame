@@ -18,7 +18,7 @@ public class DialogueCombat : MonoBehaviour
     void Start()
     {
         instance = this;
-        StartCoroutine(Type());
+        StartCoroutine(StartDelayCo());
     }
 
     void Update()
@@ -47,6 +47,12 @@ public class DialogueCombat : MonoBehaviour
         }
     }
 
+    IEnumerator StartDelayCo()
+    {
+        yield return new WaitForSeconds(2f);
+        StartCoroutine(Type());
+    }
+
     public void NextSentence()
     {
         continueButton.SetActive(false);
@@ -64,6 +70,7 @@ public class DialogueCombat : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
+            UIManager.instance.fadeFromDialogue = true;
             GameManager.instance.startPlaying = true;
         }
         else
