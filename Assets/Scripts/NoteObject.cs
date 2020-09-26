@@ -6,8 +6,9 @@ public class NoteObject : MonoBehaviour
 {
     public bool canBePressed;
     public KeyCode keyToPress;
+    public KeyCode[] keyNotToPress;
     public int buttonSoundToPlay, missSound;
-    public GameObject hitEffect, missEffect;
+    //public GameObject hitEffect, missEffect;
 
     void Update()
     {
@@ -16,7 +17,7 @@ public class NoteObject : MonoBehaviour
             if (canBePressed)
             {
                 AudioManager.instance.PlaySFX(buttonSoundToPlay);
-                EnemyHealthManager.instance.Hurt();
+                //EnemyHealthManager.instance.Hurt();
                 gameObject.SetActive(false);
 
                 //Set Animation for Button pressed
@@ -42,10 +43,55 @@ public class NoteObject : MonoBehaviour
                 }
 
                 // Set hit accuracy
-                if (Mathf.Abs(transform.position.y) >= 0.25)
+                /*if (Mathf.Abs(transform.position.y) >= 0.25)
                 {
                     Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
-                }
+                }*/
+            }
+        }
+        else if (Input.GetKeyDown(keyNotToPress[0]))
+        {
+            if (canBePressed)
+            {
+                gameObject.SetActive(false);
+                AudioManager.instance.PlaySFX(missSound);
+
+                GameManager.instance.NoteMissed();
+                GameManager.instance.playerAnim.SetTrigger("Missed");
+            }
+
+        }
+        else if (Input.GetKeyDown(keyNotToPress[1]))
+        {
+            if (canBePressed)
+            {
+                gameObject.SetActive(false);
+                AudioManager.instance.PlaySFX(missSound);
+
+                GameManager.instance.NoteMissed();
+                GameManager.instance.playerAnim.SetTrigger("Missed");
+            }
+        }
+        else if (Input.GetKeyDown(keyNotToPress[2]))
+        {
+            if (canBePressed)
+            {
+                gameObject.SetActive(false);
+                AudioManager.instance.PlaySFX(missSound);
+
+                GameManager.instance.NoteMissed();
+                GameManager.instance.playerAnim.SetTrigger("Missed");
+            }
+        }
+        else if (Input.GetKeyDown(keyNotToPress[3]))
+        {
+            if (canBePressed)
+            {
+                gameObject.SetActive(false);
+                AudioManager.instance.PlaySFX(missSound);
+
+                GameManager.instance.NoteMissed();
+                GameManager.instance.playerAnim.SetTrigger("Missed");
             }
         }
     }
@@ -66,7 +112,7 @@ public class NoteObject : MonoBehaviour
             GameManager.instance.NoteMissed();
             GameManager.instance.playerAnim.SetTrigger("Missed");
 
-            Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+            //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
             AudioManager.instance.PlaySFX(missSound);
         }
     }
