@@ -10,10 +10,9 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     public Image blackScreen;
-    public GameObject dialogueFrame;
 
     public float blackScreenFadeSpeed = 0.5f, dialogueFrameMoveSpeed;
-    public bool fadeToBlack, fadeFromBlack, fadeToDialogue, fadeFromDialogue;
+    public bool fadeToBlack, fadeFromBlack;
 
     public Image healthImage;
 
@@ -47,26 +46,6 @@ public class UIManager : MonoBehaviour
             if (blackScreen.color.a == 0f)
             {
                 fadeFromBlack = false;
-            }
-        }
-
-        if (fadeToDialogue)
-        {
-            dialogueFrame.transform.position = new Vector3(dialogueFrame.transform.position.x, Mathf.Lerp(dialogueFrame.transform.position.y, 135f, dialogueFrameMoveSpeed * Time.deltaTime), dialogueFrame.transform.position.z);
-
-            if (dialogueFrame.transform.position.y == -405f)
-            {
-                fadeToDialogue = false;
-            }
-        }
-
-        if (fadeFromDialogue)
-        {
-            dialogueFrame.transform.position = new Vector3(dialogueFrame.transform.position.x, Mathf.Lerp(dialogueFrame.transform.position.y, -135f, dialogueFrameMoveSpeed * Time.deltaTime), dialogueFrame.transform.position.z);
-
-            if (dialogueFrame.transform.position.y == -675f)
-            {
-                fadeToDialogue = false;
             }
         }
     }

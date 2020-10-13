@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public AudioSource song;
     public bool startPlaying;
 
+    public string levelToLoad;
+
     public float currentPositionInSong;
 
     public Animator playerAnim, enemyAnim;
@@ -73,7 +75,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        SceneManager.LoadScene("OverworldTest");
+        SceneManager.LoadScene(levelToLoad);
     }
 
     public void PauseUnpause()

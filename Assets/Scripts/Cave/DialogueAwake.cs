@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
-public class DialogueOverworld : MonoBehaviour
+public class DialogueAwake : MonoBehaviour
 {
-    public static DialogueOverworld instance;
+    public static DialogueAwake instance;
 
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -19,6 +18,9 @@ public class DialogueOverworld : MonoBehaviour
     void Start()
     {
         instance = this;
+        DialogueTrigger.instance.isInteracting = true;
+
+        StartCoroutine(StartDelayCo());
     }
 
     void Update()
@@ -34,7 +36,16 @@ public class DialogueOverworld : MonoBehaviour
 
         if (index == sentences.Length - 1)
         {
-            continueButtonText.text = "FIGHT!";
+            continueButtonText.text = "CONTINUE";
+        }
+
+        if (DialogueTrigger.instance.isInteracting)
+        {
+            PlayerController.instance.stopMove = true;
+        }
+        else
+        {
+            PlayerController.instance.stopMove = false;
         }
     }
 
@@ -53,16 +64,6 @@ public class DialogueOverworld : MonoBehaviour
         StartCoroutine(Type());
     }
 
-    IEnumerator SceneTransition()
-    {
-        UIManager.instance.fadeToBlack = true;
-
-        yield return new WaitForSeconds(4f);
-
-        DialogueTrigger.instance.isInteracting = false;
-        SceneManager.LoadScene("CombatTest");
-    }
-
     public void NextSentence()
     {
         continueButton.SetActive(false);
@@ -79,9 +80,7 @@ public class DialogueOverworld : MonoBehaviour
             continueButton.SetActive(false);
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
-
-            StartCoroutine(SceneTransition());
-
+            DialogueTrigger.instance.isInteracting = false;
         }
         else
         {
@@ -89,12 +88,8 @@ public class DialogueOverworld : MonoBehaviour
             continueButton.SetActive(false);
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            PlayerController.instance.stopMove = false;
+            DialogueTrigger.instance.isInteracting = false;
         }
-    }
-
-    public void StartDialogue()
-    {
-        UIManager.instance.fadeToDialogue = true;
-        StartCoroutine(StartDelayCo());
     }
 }

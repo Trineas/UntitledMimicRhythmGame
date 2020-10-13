@@ -371,8 +371,14 @@ AnimationClip:
     - time: 77.53333
       value: {fileID: -3883732523539198047, guid: f2637a8919d23164c80fc73670984544,
         type: 3}
-    - time: 78.03333
-      value: {fileID: -353080403629206956, guid: f2637a8919d23164c80fc73670984544,
+    - time: 78
+      value: {fileID: -422400795995485198, guid: f2637a8919d23164c80fc73670984544,
+        type: 3}
+    - time: 85
+      value: {fileID: -2023997012026133831, guid: f2637a8919d23164c80fc73670984544,
+        type: 3}
+    - time: 166.66667
+      value: {fileID: -2023997012026133831, guid: f2637a8919d23164c80fc73670984544,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -491,13 +497,15 @@ AnimationClip:
     - {fileID: -353080403629206956, guid: f2637a8919d23164c80fc73670984544, type: 3}
     - {fileID: -6410547489956427562, guid: f2637a8919d23164c80fc73670984544, type: 3}
     - {fileID: -3883732523539198047, guid: f2637a8919d23164c80fc73670984544, type: 3}
-    - {fileID: -353080403629206956, guid: f2637a8919d23164c80fc73670984544, type: 3}
+    - {fileID: -422400795995485198, guid: f2637a8919d23164c80fc73670984544, type: 3}
+    - {fileID: -2023997012026133831, guid: f2637a8919d23164c80fc73670984544, type: 3}
+    - {fileID: -2023997012026133831, guid: f2637a8919d23164c80fc73670984544, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 78.066666
+    m_StopTime: 166.70001
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -757,6 +765,13 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0
+    functionName: StartMoving
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 7.9
     functionName: Hurt
     data: 
@@ -773,6 +788,13 @@ AnimationClip:
     messageOptions: 0
   - time: 9.9
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 15
+    functionName: ChangeBPM
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -892,6 +914,20 @@ AnimationClip:
     messageOptions: 0
   - time: 50.3
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 54.633335
+    functionName: StartDialogue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 57.5
+    functionName: EndDialogue
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -1081,6 +1117,13 @@ AnimationClip:
     messageOptions: 0
   - time: 77.53333
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 83.23333
+    functionName: StartEndDialogue
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

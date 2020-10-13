@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
-public class DialogueCombat : MonoBehaviour
+public class DialogueAfter : MonoBehaviour
 {
-    public static DialogueCombat instance;
+    public static DialogueAfter instance;
 
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -18,7 +19,6 @@ public class DialogueCombat : MonoBehaviour
     void Start()
     {
         instance = this;
-        StartCoroutine(StartDelayCo());
     }
 
     void Update()
@@ -34,23 +34,17 @@ public class DialogueCombat : MonoBehaviour
 
         if (index == sentences.Length - 1)
         {
-            continueButtonText.text = "FIGHT!";
+            continueButtonText.text = "CONTINUE";
         }
     }
 
     IEnumerator Type()
     {
-        foreach(char letter in sentences[index].ToCharArray())
+        foreach (char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
-    }
-
-    IEnumerator StartDelayCo()
-    {
-        yield return new WaitForSeconds(2f);
-        StartCoroutine(Type());
     }
 
     public void NextSentence()
@@ -70,8 +64,7 @@ public class DialogueCombat : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
-            UIManager.instance.fadeFromDialogue = true;
-            GameManager.instance.startPlaying = true;
+            DialogueTriggerAfter.instance.isInteracting = false;
         }
         else
         {
@@ -79,6 +72,8 @@ public class DialogueCombat : MonoBehaviour
             continueButton.SetActive(false);
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+
+            DialogueTriggerAfter.instance.isInteracting = false;
         }
     }
 

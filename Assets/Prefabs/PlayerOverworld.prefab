@@ -71,8 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -353080403629206956, guid: f2637a8919d23164c80fc73670984544,
-    type: 3}
+  m_Sprite: {fileID: 796319601082264689, guid: 769ffd8bb7f28524485e23b00bb097a9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210,6 +209,7 @@ MonoBehaviour:
   aheadAmount: 2
   aheadSpeed: 1
   canInteract: 0
+  stopMove: 0
   speechEffect: {fileID: 3433215389335541840}
 --- !u!1 &5638030706324099459
 GameObject:
