@@ -1,0 +1,1169 @@
+fileFormatVersion: 2
+guid: 2f02c0617e93cf645a66a2b6e022d81b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6870408848542962458
+    second: Mimic_Walk_Backwards_0
+  - first:
+      213: -4286329788102787267
+    second: Mimic_Walk_Backwards_1
+  - first:
+      213: -4292086381321323123
+    second: Mimic_Walk_Backwards_2
+  - first:
+      213: 6050989402607833341
+    second: Mimic_Walk_Backwards_3
+  - first:
+      213: -4019949602709605976
+    second: Mimic_Walk_Backwards_4
+  - first:
+      213: 8119179209158251471
+    second: Mimic_Walk_Backwards_5
+  - first:
+      213: -4461581061131919223
+    second: Mimic_Walk_Backwards_6
+  - first:
+      213: -8918650762641053784
+    second: Mimic_Walk_Backwards_7
+  - first:
+      213: 3842973744977449897
+    second: Mimic_Walk_Backwards_8
+  - first:
+      213: -46604770093764103
+    second: Mimic_Walk_Backwards_9
+  - first:
+      213: 8545581016099705895
+    second: Mimic_Walk_Backwards_10
+  - first:
+      213: -7735066683857314574
+    second: Mimic_Walk_Backwards_11
+  - first:
+      213: -367542123869555935
+    second: Mimic_Walk_Backwards_12
+  - first:
+      213: -1005704527229939805
+    second: Mimic_Walk_Backwards_13
+  - first:
+      213: 1613091871787475192
+    second: Mimic_Walk_Backwards_14
+  - first:
+      213: 51359343434159942
+    second: Mimic_Walk_Backwards_15
+  - first:
+      213: 1101065269492425466
+    second: Mimic_Walk_Backwards_16
+  - first:
+      213: -2827515083662560093
+    second: Mimic_Walk_Backwards_17
+  - first:
+      213: 3484546720689528279
+    second: Mimic_Walk_Backwards_18
+  - first:
+      213: -8076698384693816074
+    second: Mimic_Walk_Backwards_19
+  - first:
+      213: -3469867938103584920
+    second: Mimic_Walk_Backwards_20
+  - first:
+      213: 5873619366866954185
+    second: Mimic_Walk_Backwards_21
+  - first:
+      213: 7479195649383961971
+    second: Mimic_Walk_Backwards_22
+  - first:
+      213: -2287169383359447920
+    second: Mimic_Walk_Backwards_23
+  - first:
+      213: 6097062561844078905
+    second: Mimic_Walk_Backwards_24
+  - first:
+      213: -3578237710027127251
+    second: Mimic_Walk_Backwards_25
+  - first:
+      213: 8883287555367888059
+    second: Mimic_Walk_Backwards_26
+  - first:
+      213: -3762466565040484484
+    second: Mimic_Walk_Backwards_27
+  - first:
+      213: -3079411717930384043
+    second: Mimic_Walk_Backwards_28
+  - first:
+      213: 544951783864006566
+    second: Mimic_Walk_Backwards_29
+  - first:
+      213: 6657606195663861168
+    second: Mimic_Walk_Backwards_30
+  - first:
+      213: 6252137192479761525
+    second: Mimic_Walk_Backwards_31
+  - first:
+      213: 8132071893548535701
+    second: Mimic_Walk_Backwards_32
+  - first:
+      213: 5634020099217705077
+    second: Mimic_Walk_Backwards_33
+  - first:
+      213: 4002816352095406807
+    second: Mimic_Walk_Backwards_34
+  - first:
+      213: -7532233269582878987
+    second: Mimic_Walk_Backwards_35
+  - first:
+      213: 1591949415444233750
+    second: Mimic_Walk_Backwards_36
+  - first:
+      213: -6905486973309718247
+    second: Mimic_Walk_Backwards_37
+  - first:
+      213: 8935652009138492817
+    second: Mimic_Walk_Backwards_38
+  - first:
+      213: -6213999573617046206
+    second: Mimic_Walk_Backwards_39
+  - first:
+      213: 280704582444740378
+    second: Mimic_Walk_Backwards_40
+  - first:
+      213: -3144284717672533586
+    second: Mimic_Walk_Backwards_41
+  - first:
+      213: 204715532079884170
+    second: Mimic_Walk_Backwards_42
+  - first:
+      213: -4886547988214273592
+    second: Mimic_Walk_Backwards_43
+  - first:
+      213: 7094816887010897125
+    second: Mimic_Walk_Backwards_44
+  - first:
+      213: 599671381034144410
+    second: Mimic_Walk_Backwards_45
+  - first:
+      213: 7679540619866273217
+    second: Mimic_Walk_Backwards_46
+  - first:
+      213: 3433989377643926792
+    second: Mimic_Walk_Backwards_47
+  - first:
+      213: 156960673623800090
+    second: Mimic_Walk_Backwards_48
+  - first:
+      213: -3906541315635290061
+    second: Mimic_Walk_Backwards_49
+  - first:
+      213: 130831411895497784
+    second: Mimic_Walk_Backwards_50
+  - first:
+      213: -2806251275667524495
+    second: Mimic_Walk_Backwards_51
+  - first:
+      213: -2678569073465778222
+    second: Mimic_Walk_Backwards_52
+  - first:
+      213: 6428690598934723455
+    second: Mimic_Walk_Backwards_53
+  - first:
+      213: 8810641318160630265
+    second: Mimic_Walk_Backwards_54
+  - first:
+      213: 4189655975392024234
+    second: Mimic_Walk_Backwards_55
+  - first:
+      213: 3969751588182063801
+    second: Mimic_Walk_Backwards_56
+  - first:
+      213: -9002938636191209229
+    second: Mimic_Walk_Backwards_57
+  - first:
+      213: 810874921151154057
+    second: Mimic_Walk_Backwards_58
+  - first:
+      213: -2480467988660994040
+    second: Mimic_Walk_Backwards_59
+  - first:
+      213: 7673163719908391186
+    second: Mimic_Walk_Backwards_60
+  - first:
+      213: 7936005701163037394
+    second: Mimic_Walk_Backwards_61
+  - first:
+      213: 1185736792433511014
+    second: Mimic_Walk_Backwards_62
+  - first:
+      213: -4145633975658208579
+    second: Mimic_Walk_Backwards_63
+  - first:
+      213: 1644391394894043546
+    second: Mimic_Walk_Backwards_64
+  - first:
+      213: -5156554428605361141
+    second: Mimic_Walk_Backwards_65
+  - first:
+      213: -4889675562739221985
+    second: Mimic_Walk_Backwards_66
+  - first:
+      213: -2513165607152487204
+    second: Mimic_Walk_Backwards_67
+  - first:
+      213: -6186707964932213460
+    second: Mimic_Walk_Backwards_68
+  - first:
+      213: 6028116426844848387
+    second: Mimic_Walk_Backwards_69
+  - first:
+      213: 8257066739833779196
+    second: Mimic_Walk_Backwards_70
+  - first:
+      213: -7261902793769225823
+    second: Mimic_Walk_Backwards_71
+  - first:
+      213: 3597097613862999712
+    second: Mimic_Walk_Backwards_72
+  - first:
+      213: 8255127368594728493
+    second: Mimic_Walk_Backwards_73
+  - first:
+      213: 4064183689600595295
+    second: Mimic_Walk_Backwards_74
+  - first:
+      213: -8029506779778076312
+    second: Mimic_Walk_Backwards_75
+  - first:
+      213: 1424597352343960523
+    second: Mimic_Walk_Backwards_76
+  - first:
+      213: -7271970564425723872
+    second: Mimic_Walk_Backwards_77
+  - first:
+      213: -2564795438581509814
+    second: Mimic_Walk_Backwards_78
+  - first:
+      213: -845509089930766734
+    second: Mimic_Walk_Backwards_79
+  - first:
+      213: -2397985819426756201
+    second: Mimic_Walk_Backwards_80
+  - first:
+      213: -2775512525517134697
+    second: Mimic_Walk_Backwards_81
+  - first:
+      213: 2945427937993851864
+    second: Mimic_Walk_Backwards_82
+  - first:
+      213: 1717593929741219577
+    second: Mimic_Walk_Backwards_83
+  - first:
+      213: 1887269572269276499
+    second: Mimic_Walk_Backwards_84
+  - first:
+      213: 6176729086905261250
+    second: Mimic_Walk_Backwards_85
+  - first:
+      213: -4174710474460564541
+    second: Mimic_Walk_Backwards_0
+  - first:
+      213: 302843590409394269
+    second: Mimic_Walk_Backwards_1
+  - first:
+      213: -9067587476943247745
+    second: Mimic_Walk_Backwards_2
+  - first:
+      213: 4168356355917845236
+    second: Mimic_Walk_Backwards_3
+  - first:
+      213: -5312272348029341592
+    second: Mimic_Walk_Backwards_4
+  - first:
+      213: 1467618232174414134
+    second: Mimic_Walk_Backwards_5
+  - first:
+      213: 7465154305821545516
+    second: Mimic_Walk_Backwards_6
+  - first:
+      213: -6416724344481433970
+    second: Mimic_Walk_Backwards_7
+  - first:
+      213: -7223060979442261306
+    second: Mimic_Walk_Backwards_8
+  - first:
+      213: -1834700217016371776
+    second: Mimic_Walk_Backwards_9
+  - first:
+      213: 4619600519251894261
+    second: Mimic_Walk_Backwards_10
+  - first:
+      213: 7864175696162579128
+    second: Mimic_Walk_Backwards_11
+  - first:
+      213: -1355923337475981595
+    second: Mimic_Walk_Backwards_12
+  - first:
+      213: -7802593138217078153
+    second: Mimic_Walk_Backwards_13
+  - first:
+      213: -1327872347556676118
+    second: Mimic_Walk_Backwards_14
+  - first:
+      213: 1756606076095868635
+    second: Mimic_Walk_Backwards_15
+  - first:
+      213: -1729489772027894759
+    second: Mimic_Walk_Backwards_16
+  - first:
+      213: -1328715299726657950
+    second: Mimic_Walk_Backwards_17
+  - first:
+      213: 7976515197675404438
+    second: Mimic_Walk_Backwards_18
+  - first:
+      213: 5773024706122181960
+    second: Mimic_Walk_Backwards_19
+  - first:
+      213: 5327781639871278185
+    second: Mimic_Walk_Backwards_20
+  - first:
+      213: -4662583156461255213
+    second: Mimic_Walk_Backwards_21
+  - first:
+      213: -3542674977880631768
+    second: Mimic_Walk_Backwards_22
+  - first:
+      213: 561943284807148678
+    second: Mimic_Walk_Backwards_23
+  - first:
+      213: -1491447573982426624
+    second: Mimic_Walk_Backwards_24
+  - first:
+      213: -5713667391971584004
+    second: Mimic_Walk_Backwards_25
+  - first:
+      213: -6745325842711981108
+    second: Mimic_Walk_Backwards_26
+  - first:
+      213: -5935361246544695738
+    second: Mimic_Walk_Backwards_27
+  - first:
+      213: 7064131540739547465
+    second: Mimic_Walk_Backwards_28
+  - first:
+      213: -4287290869223447545
+    second: Mimic_Walk_Backwards_29
+  - first:
+      213: 7767284065368086232
+    second: Mimic_Walk_Backwards_30
+  - first:
+      213: 8491208745326547346
+    second: Mimic_Walk_Backwards_31
+  - first:
+      213: -1316247228301832133
+    second: Mimic_Walk_Backwards_32
+  - first:
+      213: -505139708858037440
+    second: Mimic_Walk_Backwards_33
+  - first:
+      213: 6919833369485729097
+    second: Mimic_Walk_Backwards_34
+  - first:
+      213: 8086970808058631425
+    second: Mimic_Walk_Backwards_35
+  - first:
+      213: -7732233038202401761
+    second: Mimic_Walk_Backwards_36
+  - first:
+      213: -3698962854890802735
+    second: Mimic_Walk_Backwards_37
+  - first:
+      213: -7910983126311538261
+    second: Mimic_Walk_Backwards_38
+  - first:
+      213: 2613855693400775038
+    second: Mimic_Walk_Backwards_39
+  - first:
+      213: 5934391536322785842
+    second: Mimic_Walk_Backwards_40
+  - first:
+      213: -430961708523198885
+    second: Mimic_Walk_Backwards_41
+  - first:
+      213: -5697184920970196356
+    second: Mimic_Walk_Backwards_42
+  - first:
+      213: 2243165684866693804
+    second: Mimic_Walk_Backwards_43
+  - first:
+      213: 5437896067542033594
+    second: Mimic_Walk_Backwards_44
+  - first:
+      213: 8650766644143856904
+    second: Mimic_Walk_Backwards_45
+  - first:
+      213: 2974196458114193834
+    second: Mimic_Walk_Backwards_46
+  - first:
+      213: -1919615664071737702
+    second: Mimic_Walk_Backwards_47
+  - first:
+      213: -859489572220254427
+    second: Mimic_Walk_Backwards_48
+  - first:
+      213: -4534276025599682787
+    second: Mimic_Walk_Backwards_49
+  - first:
+      213: 4724326761354866578
+    second: Mimic_Walk_Backwards_50
+  - first:
+      213: 4784994056977201704
+    second: Mimic_Walk_Backwards_51
+  - first:
+      213: -3611216329916395791
+    second: Mimic_Walk_Backwards_52
+  - first:
+      213: -4692614921624844763
+    second: Mimic_Walk_Backwards_53
+  - first:
+      213: 2532279020961892162
+    second: Mimic_Walk_Backwards_54
+  - first:
+      213: 5456297765892020405
+    second: Mimic_Walk_Backwards_55
+  - first:
+      213: 2141161836444235287
+    second: Mimic_Walk_Backwards_56
+  - first:
+      213: 4957248388301354407
+    second: Mimic_Walk_Backwards_57
+  - first:
+      213: -5792968362292739950
+    second: Mimic_Walk_Backwards_58
+  - first:
+      213: 7541771387833403750
+    second: Mimic_Walk_Backwards_59
+  - first:
+      213: 3287472553124682413
+    second: Mimic_Walk_Backwards_60
+  - first:
+      213: -3749378558980644402
+    second: Mimic_Walk_Backwards_61
+  - first:
+      213: 6732451687918447569
+    second: Mimic_Walk_Backwards_62
+  - first:
+      213: 4331352002669211647
+    second: Mimic_Walk_Backwards_63
+  - first:
+      213: -8867955932887844699
+    second: Mimic_Walk_Backwards_64
+  - first:
+      213: 2086071334527258579
+    second: Mimic_Walk_Backwards_65
+  - first:
+      213: -4463349955363107494
+    second: Mimic_Walk_Backwards_66
+  - first:
+      213: 2332272063611442922
+    second: Mimic_Walk_Backwards_67
+  - first:
+      213: -7517788512137501453
+    second: Mimic_Walk_Backwards_68
+  - first:
+      213: 3419880775146747013
+    second: Mimic_Walk_Backwards_69
+  - first:
+      213: 6143611586691293978
+    second: Mimic_Walk_Backwards_70
+  - first:
+      213: 8133400942460765420
+    second: Mimic_Walk_Backwards_71
+  - first:
+      213: 6797787785013446811
+    second: Mimic_Walk_Backwards_72
+  - first:
+      213: 9221028223286728860
+    second: Mimic_Walk_Backwards_73
+  - first:
+      213: -3814578345306182002
+    second: Mimic_Walk_Backwards_74
+  - first:
+      213: -3222076647101570679
+    second: Mimic_Walk_Backwards_75
+  - first:
+      213: 1319825400645709527
+    second: Mimic_Walk_Backwards_76
+  - first:
+      213: 5815742382162273268
+    second: Mimic_Walk_Backwards_77
+  - first:
+      213: -7755349653909751091
+    second: Mimic_Walk_Backwards_78
+  - first:
+      213: 5735100609170323224
+    second: Mimic_Walk_Backwards_79
+  - first:
+      213: 2758363036249267019
+    second: Mimic_Walk_Backwards_80
+  - first:
+      213: -4215282830995560650
+    second: Mimic_Walk_Backwards_81
+  - first:
+      213: -6409920982827424869
+    second: Mimic_Walk_Backwards_82
+  - first:
+      213: 3371236400066776507
+    second: Mimic_Walk_Backwards_83
+  - first:
+      213: 4603083309983531493
+    second: Mimic_Walk_Backwards_84
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_13
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772bba571ee97b390800000000000000
+      internalID: -7802593138217078153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_16
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9142b9f273e9ff7e0800000000000000
+      internalID: -1729489772027894759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_17
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667a2889747f8de0800000000000000
+      internalID: -1328715299726657950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_18
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c72f69f4642be60800000000000000
+      internalID: 7976515197675404438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_20
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c20657c2510f940800000000000000
+      internalID: 5327781639871278185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_23
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3872
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a8d2b07c6cc700800000000000000
+      internalID: 561943284807148678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a139a1f5278985f50800000000000000
+      internalID: 6870408848542962458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_1
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f35f584c5e384c0800000000000000
+      internalID: -4286329788102787267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_2
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dfc083d227f64c0800000000000000
+      internalID: -4292086381321323123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_3
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0d71a5dce69f350800000000000000
+      internalID: 6050989402607833341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_4
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1758b82254638c0800000000000000
+      internalID: -4019949602709605976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_5
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35d95397e1da070800000000000000
+      internalID: 8119179209158251471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_6
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 7112
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9802f92d9a74512c0800000000000000
+      internalID: -4461581061131919223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7630962669a3480800000000000000
+      internalID: -8918650762641053784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a39886924cf45530800000000000000
+      internalID: 3842973744977449897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_9
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1f8b1653d6a5ff0800000000000000
+      internalID: -46604770093764103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_10
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d1ff58a0089670800000000000000
+      internalID: 8545581016099705895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_11
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd9ba45d587a490800000000000000
+      internalID: -7735066683857314574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_12
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 6032
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12333cab26a36eaf0800000000000000
+      internalID: -367542123869555935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f066f7c28ad26610800000000000000
+      internalID: 1613091871787475192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_15
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6475a4dfc0776b000800000000000000
+      internalID: 51359343434159942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_19
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4952
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f49a5e7c9dc9ef80800000000000000
+      internalID: -8076698384693816074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3872
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a5f3c1b9438150800000000000000
+      internalID: 5873619366866954185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Walk_Backwards_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3872
+        width: 1080
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3759d2f01d07bc760800000000000000
+      internalID: 7479195649383961971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 44045ed5070834e4da4bebde5d433916
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

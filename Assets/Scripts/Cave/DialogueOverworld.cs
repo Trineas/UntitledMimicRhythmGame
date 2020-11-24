@@ -18,6 +18,8 @@ public class DialogueOverworld : MonoBehaviour
     public GameObject continueButton;
     public TextMeshProUGUI continueButtonText;
 
+    public Animator anim;
+
     void Start()
     {
         instance = this;
@@ -51,6 +53,8 @@ public class DialogueOverworld : MonoBehaviour
 
     IEnumerator SceneTransition()
     {
+        anim.SetTrigger("morphToGuardian");
+
         UIManager.instance.fadeToBlack = true;
 
         yield return new WaitForSeconds(4f);

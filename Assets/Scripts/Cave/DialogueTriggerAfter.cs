@@ -8,9 +8,13 @@ public class DialogueTriggerAfter : MonoBehaviour
 
     public bool isInteracting;
 
+    public Animator anim;
+
     private void Start()
     {
         instance = this;
+
+        anim.SetBool("Defeated", true);
     }
 
     private void Update()
