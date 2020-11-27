@@ -28,6 +28,7 @@ public class ObjectBPMChanger : MonoBehaviour
     {
         for (int i = 0; i < anim.Length; i++)
         {
+            anim[i].SetTrigger("StartMove");
             anim[i].SetFloat("Speed", 1f);
         }
     }
