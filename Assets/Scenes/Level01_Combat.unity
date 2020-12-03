@@ -3642,6 +3642,7 @@ MonoBehaviour:
   keyNotToPress: 11010000130100001201000020000000
   buttonSoundToPlay: 1
   missSound: 6
+  doesDamage: 0
 --- !u!212 &311806572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3681,7 +3682,7 @@ SpriteRenderer:
   m_SortingLayerID: -205282615
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e970876cad1b4b145a9c245a5b6bd0cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -4798,6 +4799,7 @@ MonoBehaviour:
   keyNotToPress: 11010000130100001401000020000000
   buttonSoundToPlay: 2
   missSound: 6
+  doesDamage: 0
 --- !u!212 &409800635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6986,6 +6988,7 @@ MonoBehaviour:
   keyNotToPress: 11010000120100001401000020000000
   buttonSoundToPlay: 4
   missSound: 6
+  doesDamage: 0
 --- !u!212 &719396115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7025,7 +7028,7 @@ SpriteRenderer:
   m_SortingLayerID: -205282615
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e970876cad1b4b145a9c245a5b6bd0cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8635,6 +8638,7 @@ MonoBehaviour:
   keyNotToPress: 11010000120100001401000020000000
   buttonSoundToPlay: 4
   missSound: 6
+  doesDamage: 0
 --- !u!212 &882968729
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8674,7 +8678,7 @@ SpriteRenderer:
   m_SortingLayerID: -205282615
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e970876cad1b4b145a9c245a5b6bd0cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9310,6 +9314,7 @@ MonoBehaviour:
   keyNotToPress: 12010000130100001401000020000000
   buttonSoundToPlay: 3
   missSound: 6
+  doesDamage: 0
 --- !u!212 &982320688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12499,6 +12504,7 @@ MonoBehaviour:
   keyNotToPress: 11010000130100001201000020000000
   buttonSoundToPlay: 1
   missSound: 6
+  doesDamage: 0
 --- !u!212 &1517262608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12538,7 +12544,7 @@ SpriteRenderer:
   m_SortingLayerID: -205282615
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e970876cad1b4b145a9c245a5b6bd0cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -14210,16 +14216,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7433504425879007832, guid: 4770f2efa5f445441ada126f96645d92,
-        type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7433504426417373559, guid: 4770f2efa5f445441ada126f96645d92,
-        type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7433504426603426424, guid: 4770f2efa5f445441ada126f96645d92,
         type: 3}
       propertyPath: m_Name
@@ -14279,16 +14275,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7433504427330383225, guid: 4770f2efa5f445441ada126f96645d92,
-        type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7433504427522649063, guid: 4770f2efa5f445441ada126f96645d92,
-        type: 3}
-      propertyPath: m_Volume
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4770f2efa5f445441ada126f96645d92, type: 3}
@@ -15003,8 +14989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6601068701fd67a459e77ab5068ac54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximum: 470
-  current: 470
+  maximum: 600
+  current: 600
   minimum: 0
   damagePerHit: 10
   mask: {fileID: 1405308531}

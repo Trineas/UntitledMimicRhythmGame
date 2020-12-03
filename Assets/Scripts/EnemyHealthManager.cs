@@ -20,13 +20,15 @@ public class EnemyHealthManager : MonoBehaviour
     {
         GetCurrentFill();
 
-        if (current <= 50 && current > 25)
-        {
-            color = Color.red;
-        }
-        else if (current <= 25)
+        //int percentage = current / maximum * 100;
+
+        if (current <= 300 && current > 150)
         {
             color = Color.yellow;
+        }
+        else if (current <= 150)
+        {
+            color = Color.red;
         }
         else
         {

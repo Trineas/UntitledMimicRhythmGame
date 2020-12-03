@@ -8,6 +8,8 @@ public class NoteObject : MonoBehaviour
     public KeyCode keyToPress;
     public KeyCode[] keyNotToPress;
     public int buttonSoundToPlay, missSound;
+
+    public bool doesDamage;
     //public GameObject hitEffect, missEffect;
 
     void Update()
@@ -51,7 +53,7 @@ public class NoteObject : MonoBehaviour
         }
         else if (Input.GetKeyDown(keyNotToPress[0]))
         {
-            if (canBePressed)
+            if (canBePressed && doesDamage)
             {
                 gameObject.SetActive(false);
                 AudioManager.instance.PlaySFX(missSound);
@@ -63,7 +65,7 @@ public class NoteObject : MonoBehaviour
         }
         else if (Input.GetKeyDown(keyNotToPress[1]))
         {
-            if (canBePressed)
+            if (canBePressed && doesDamage)
             {
                 gameObject.SetActive(false);
                 AudioManager.instance.PlaySFX(missSound);
@@ -74,7 +76,7 @@ public class NoteObject : MonoBehaviour
         }
         else if (Input.GetKeyDown(keyNotToPress[2]))
         {
-            if (canBePressed)
+            if (canBePressed && doesDamage)
             {
                 gameObject.SetActive(false);
                 AudioManager.instance.PlaySFX(missSound);
@@ -85,7 +87,7 @@ public class NoteObject : MonoBehaviour
         }
         else if (Input.GetKeyDown(keyNotToPress[3]))
         {
-            if (canBePressed)
+            if (canBePressed && doesDamage)
             {
                 gameObject.SetActive(false);
                 AudioManager.instance.PlaySFX(missSound);
@@ -106,7 +108,7 @@ public class NoteObject : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Activator" && gameObject.activeSelf)
+        if (other.tag == "Activator" && gameObject.activeSelf && doesDamage)
         {
             canBePressed = false;
             GameManager.instance.NoteMissed();
