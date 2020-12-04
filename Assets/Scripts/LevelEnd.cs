@@ -6,15 +6,18 @@ using UnityEngine.SceneManagement;
 public class LevelEnd : MonoBehaviour
 {
     public string levelToLoad;
+    public GameObject toBeContinued;
 
     IEnumerator LevelTransition()
     {
         DialogueTriggerAfter.instance.isInteracting = true;
-        UIManager.instance.fadeToBlack = true;
+        //UIManager.instance.fadeToBlack = true;
+        toBeContinued.SetActive(true);
+        Time.timeScale = 0f;
 
         yield return new WaitForSeconds(4f);
 
-        SceneManager.LoadScene(levelToLoad);
+        //SceneManager.LoadScene(levelToLoad);
 
     }
 
