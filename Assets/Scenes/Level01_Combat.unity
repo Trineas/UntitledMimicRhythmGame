@@ -6580,6 +6580,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3dfc32a3bb486084f8e5a94fbb70a5ad, type: 3}
   - {fileID: 21300000, guid: 5b8f0839d716af242a6c995185031452, type: 3}
   - {fileID: 21300000, guid: 881a42d50e3e23a4db133004adc39d00, type: 3}
+  easyMode: 0
 --- !u!4 &348826419
 Transform:
   m_ObjectHideFlags: 0
@@ -8421,7 +8422,7 @@ GameObject:
   - component: {fileID: 506233404}
   - component: {fileID: 506233403}
   m_Layer: 5
-  m_Name: MainMenuButton
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8472,7 +8473,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1605572183}
-        m_MethodName: MainMenu
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9009,6 +9010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 552383986}
   - component: {fileID: 552383985}
+  - component: {fileID: 552383987}
   m_Layer: 0
   m_Name: Note Holder
   m_TagString: Untagged
@@ -9122,6 +9124,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &552383987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552383984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce2962d59a8d0948914468926482a7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &563513520
 GameObject:
   m_ObjectHideFlags: 0
@@ -15120,7 +15134,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6fb445b0fa222684eaaf297e52afd735, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25615,6 +25629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125296781}
+  - component: {fileID: 2125296782}
   m_Layer: 0
   m_Name: Buttons
   m_TagString: Untagged
@@ -25641,6 +25656,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125296782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125296780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ae0f9c57bbb5545814a6a439f81bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2129438302
 GameObject:
   m_ObjectHideFlags: 0
@@ -25927,31 +25954,5 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6950911746183540349, guid: 284522f410b65034293f0b7b389fd92b,
         type: 3}
-    - target: {fileID: 4514216035680061025, guid: 7c3ebc7bedc66004cae7489d65b05db3,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2748763f2ca5d814e8e1a284bf69cc6f, type: 2}
-    - target: {fileID: 8017890307941018142, guid: 7c3ebc7bedc66004cae7489d65b05db3,
-        type: 3}
-      propertyPath: mask
-      value: 
-      objectReference: {fileID: 1405308531}
-    - target: {fileID: 8017890307941018142, guid: 7c3ebc7bedc66004cae7489d65b05db3,
-        type: 3}
-      propertyPath: damagePerHit
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8017890307941018142, guid: 7c3ebc7bedc66004cae7489d65b05db3,
-        type: 3}
-      propertyPath: fill
-      value: 
-      objectReference: {fileID: 1206933552}
-    - target: {fileID: 8017890307941018142, guid: 7c3ebc7bedc66004cae7489d65b05db3,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8017890307941018142, guid: 7c3ebc7bedc66004cae7489d65b05db3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c3ebc7bedc66004cae7489d65b05db3, type: 3}

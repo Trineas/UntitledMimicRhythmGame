@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4514216035209114447}
   - component: {fileID: 4514216035209114444}
-  - component: {fileID: 8017890307941018142}
   m_Layer: 0
   m_Name: EnemyCombat
   m_TagString: Untagged
@@ -53,25 +52,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8017890307941018142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4514216035209114443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6601068701fd67a459e77ab5068ac54b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maximum: 100
-  current: 100
-  minimum: 0
-  damagePerHit: 0
-  mask: {fileID: 0}
-  fill: {fileID: 0}
-  color: {r: 0.32941177, g: 1, b: 0, a: 0}
 --- !u!1 &4514216035680061027
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +102,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2748763f2ca5d814e8e1a284bf69cc6f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

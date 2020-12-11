@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 63615ab92fa5f284e91a71bd346132e6,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3094,7 +3094,7 @@ GameObject:
   - component: {fileID: 292728500}
   - component: {fileID: 292728499}
   m_Layer: 5
-  m_Name: MainMenuButton
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3145,7 +3145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2005206301}
-        m_MethodName: MainMenu
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11954,7 +11954,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main menu
+  m_Text: Quit
 --- !u!222 &1557183277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14219,7 +14219,7 @@ MonoBehaviour:
   - There once was a Mimic that had its chest stolen.
   - So it left to get it back.
   - It knew it could use the Arrow Keys to move around and leave its home.
-  - The Mimic was..... CAUTIOUS (Easy) / CONFIDENT (Normal) in its quest.
+  - The Mimic was..... CAUTIOUS (Easy) / CONFIDENT (Normal) about starting its quest.
   index: 0
   typingSpeed: 0.05
   continueButton: {fileID: 160356451}
@@ -15627,6 +15627,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3662822102840731042, guid: c5afb49a38d622446ae2fec6553c371a,
+        type: 3}
+      propertyPath: isInteracting
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4764798560733018018, guid: c5afb49a38d622446ae2fec6553c371a,
         type: 3}
       propertyPath: m_LocalPosition.y

@@ -18,8 +18,7 @@ public class DialogueAwake : MonoBehaviour
     void Start()
     {
         instance = this;
-        DialogueTrigger.instance.isInteracting = true;
-
+        //DialogueTrigger.instance.isInteracting = true;
         StartCoroutine(StartDelayCo());
     }
 

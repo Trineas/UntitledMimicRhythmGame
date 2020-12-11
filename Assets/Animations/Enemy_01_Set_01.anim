@@ -23524,6 +23524,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 28.333334
+    functionName: TriggerFadeOut
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 45.1
     functionName: Hurt
     data: 
@@ -23790,6 +23797,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 123
+    functionName: TriggerFadeIn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 124.23333
     functionName: StartDialogue
     data: 
@@ -23799,6 +23813,13 @@ AnimationClip:
     messageOptions: 0
   - time: 133.33333
     functionName: EndDialogue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 134.5
+    functionName: TriggerFadeOut
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
