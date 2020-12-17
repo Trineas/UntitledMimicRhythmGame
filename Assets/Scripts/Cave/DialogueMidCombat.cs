@@ -33,7 +33,7 @@ public class DialogueMidCombat : MonoBehaviour
 
     public void TriggerFadeIn()
     {
-        if (!GameManager.instance.easyMode)
+        if (!DifficultyChoice.easyMode)
         {
             ButtonFade.instance.StartFadingButtonsIn();
             NoteFade.instance.StartFadingNotesIn();
@@ -42,7 +42,7 @@ public class DialogueMidCombat : MonoBehaviour
 
     public void TriggerFadeOut()
     {
-        if (!GameManager.instance.easyMode)
+        if (!DifficultyChoice.easyMode)
         {
             ButtonFade.instance.StartFadingButtonsOut();
             NoteFade.instance.StartFadingNotesOut();

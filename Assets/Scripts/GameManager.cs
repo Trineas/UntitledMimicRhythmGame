@@ -22,8 +22,6 @@ public class GameManager : MonoBehaviour
     private int maxHealth = 5;
     public Sprite[] healthBarImages;
 
-    public bool easyMode;
-
     void Start()
     {
         instance = this;

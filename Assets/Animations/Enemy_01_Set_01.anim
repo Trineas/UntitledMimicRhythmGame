@@ -23811,15 +23811,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 133.33333
-    functionName: EndDialogue
+  - time: 132.76666
+    functionName: TriggerFadeOut
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 134.5
-    functionName: TriggerFadeOut
+  - time: 133.33333
+    functionName: EndDialogue
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

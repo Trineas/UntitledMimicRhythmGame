@@ -18,13 +18,14 @@ public class DialogueAwake : MonoBehaviour
     void Start()
     {
         instance = this;
-        //DialogueTrigger.instance.isInteracting = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         StartCoroutine(StartDelayCo());
     }
 
     void Update()
     {
-        if (textDisplay.text == sentences[index])
+        if (textDisplay.text == sentences[index] && !DifficultyChoice.buttonsActive)
         {
             continueButtonText.text = "CONTINUE";
             continueButton.SetActive(true);
@@ -36,6 +37,9 @@ public class DialogueAwake : MonoBehaviour
         if (index == sentences.Length - 1)
         {
             continueButtonText.text = "CONTINUE";
+
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         if (DialogueTrigger.instance.isInteracting)
@@ -45,6 +49,11 @@ public class DialogueAwake : MonoBehaviour
         else
         {
             PlayerController.instance.stopMove = false;
+        }
+
+        if (DifficultyChoice.buttonsActive)
+        {
+            continueButton.SetActive(false);
         }
     }
 
@@ -75,11 +84,13 @@ public class DialogueAwake : MonoBehaviour
         }
         else if (index == sentences.Length - 1)
         {
+            DifficultyChoice.buttonsActive = true;
+
             textDisplay.text = "";
             continueButton.SetActive(false);
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
-            DialogueTrigger.instance.isInteracting = false;
+            //DialogueTrigger.instance.isInteracting = false;
         }
         else
         {
@@ -88,7 +99,7 @@ public class DialogueAwake : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             PlayerController.instance.stopMove = false;
-            DialogueTrigger.instance.isInteracting = false;
+            //DialogueTrigger.instance.isInteracting = false;
         }
     }
 }
