@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 719c7768bc0a4e84492b3b768a7a56e8,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -254,7 +254,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 20, y: -320}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 1880, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &10228089
 GameObject:
@@ -8441,8 +8441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 4
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 2119594757}
+    m_SelectOnUp: {fileID: 2119594757}
+    m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
@@ -8450,7 +8450,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.094562106, g: 0.8018868, b: 0.2092588, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -11995,7 +11995,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main menu
+  m_Text: Quit
 --- !u!222 &831310894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12166,7 +12166,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 20, y: -320}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 1880, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &844893252
 MonoBehaviour:
@@ -12231,7 +12231,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -20686,6 +20686,9 @@ MonoBehaviour:
   healthImage: {fileID: 1936793134}
   pauseScreen: {fileID: 563513520}
   pauseFirstButton: {fileID: 2119594756}
+  dialogueContinueButton: {fileID: 120125194}
+  awakeDialogueContinueButton: {fileID: 822642381}
+  difficultyFirstButton: {fileID: 770548974}
   mainMenu: Test
 --- !u!1 &1612747662
 GameObject:
@@ -21139,6 +21142,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7390789606553588924, guid: 4770f2efa5f445441ada126f96645d92,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 7433504426603426424, guid: 4770f2efa5f445441ada126f96645d92,
         type: 3}
       propertyPath: m_Name
@@ -22305,7 +22313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 844893252}
   sentences:
-  - '"Uhhh...." The panting Guard started to wobble, before toppling over.'
+  - '"Uhhh...." groaned the Guardian as it started to wobble, before falling over
+    from exhaustion.'
   index: 0
   typingSpeed: 0.05
   levelToLoad: Level01_After
@@ -22330,6 +22339,28 @@ MonoBehaviour:
   mask: {fileID: 1405308531}
   fill: {fileID: 1206933552}
   color: {r: 0.32941177, g: 1, b: 0, a: 0}
+--- !u!114 &1704569043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704569039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d348f09926fd94781afe7329d97615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 6767316}
+  sentences:
+  - The Mimic watched the Guardian carefully, as it had no means to attack on it's
+    own.
+  - Whenever the Guardian moved, it tried to imitate the same attack after by pressing
+    the corresponding Arrow Key in time with the beat.
+  - '"Raaargh...! Enough warming up. Me smash you now!" said the Guardian as it cracked
+    it''s knuckles.'
+  index: 0
+  typingSpeed: 0.03
 --- !u!114 &1704569044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22344,8 +22375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 6767316}
   sentences:
-  - '"Hngah! Slippery... Me mad now!" wheezed the Guard as it readied it''s next
-    attack.'
+  - '"Hngah! Slippery... Me mad now!" wheezed the Guardian as it readied a new attack.'
   index: 0
   typingSpeed: 0.02
 --- !u!1001 &1707387544
@@ -22606,9 +22636,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 6767316}
   sentences:
-  - The Mimic made a strange noise as it morphed to match the Guards appearance.
-  - The Guard grunted "What trick is this?" It shouted, as it tumbled towards the
-    Mimic!
+  - The Mimic made a strange noise as it morphed to match the Guardian's appearance.
+  - The Guardian grunted "What trick is this?" it shouted, as it tumbled towards
+    the Mimic!
   index: 0
   typingSpeed: 0.05
   continueButton: {fileID: 120125194}
@@ -25767,8 +25797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 4
-    m_SelectOnUp: {fileID: 506233403}
-    m_SelectOnDown: {fileID: 0}
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 506233403}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
@@ -25776,7 +25806,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.11863652, g: 0.8113208, b: 0.21116048, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1

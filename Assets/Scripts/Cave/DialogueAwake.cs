@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class DialogueAwake : MonoBehaviour
 {
@@ -18,8 +19,6 @@ public class DialogueAwake : MonoBehaviour
     void Start()
     {
         instance = this;
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
         StartCoroutine(StartDelayCo());
     }
 
@@ -30,16 +29,13 @@ public class DialogueAwake : MonoBehaviour
             continueButtonText.text = "CONTINUE";
             continueButton.SetActive(true);
 
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.awakeDialogueContinueButton);
         }
 
         if (index == sentences.Length - 1)
         {
             continueButtonText.text = "CONTINUE";
-
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
         }
 
         if (DialogueTrigger.instance.isInteracting)
@@ -84,20 +80,17 @@ public class DialogueAwake : MonoBehaviour
         }
         else if (index == sentences.Length - 1)
         {
+            DifficultyChoice.buttonsAreActive = true;
             DifficultyChoice.buttonsActive = true;
 
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
             //DialogueTrigger.instance.isInteracting = false;
         }
         else
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
             PlayerController.instance.stopMove = false;
             //DialogueTrigger.instance.isInteracting = false;
         }

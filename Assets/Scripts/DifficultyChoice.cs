@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class DifficultyChoice : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class DifficultyChoice : MonoBehaviour
 
     public static bool easyMode;
     public static bool buttonsActive;
+    public static bool buttonsAreActive;
 
     private void Update()
     {
@@ -23,6 +25,13 @@ public class DifficultyChoice : MonoBehaviour
         {
             easy.gameObject.SetActive(false);
             normal.gameObject.SetActive(false);
+        }
+
+        if (buttonsAreActive)
+        {
+            buttonsAreActive = false;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.difficultyFirstButton);
         }
     }
 

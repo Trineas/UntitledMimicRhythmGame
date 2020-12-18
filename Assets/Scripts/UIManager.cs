@@ -18,13 +18,16 @@ public class UIManager : MonoBehaviour
 
     public GameObject pauseScreen;
 
-    public GameObject pauseFirstButton;
+    public GameObject pauseFirstButton, dialogueContinueButton, awakeDialogueContinueButton, difficultyFirstButton;
 
     public string mainMenu;
 
     private void Awake()
     {
         instance = this;
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()

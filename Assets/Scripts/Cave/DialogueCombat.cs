@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class DialogueCombat : MonoBehaviour
 {
@@ -28,8 +29,8 @@ public class DialogueCombat : MonoBehaviour
             continueButtonText.text = "CONTINUE";
             continueButton.SetActive(true);
 
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.dialogueContinueButton);
         }
 
         if (index == sentences.Length - 1)
@@ -67,8 +68,6 @@ public class DialogueCombat : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
 
             GameManager.instance.startPlaying = true;
         }
@@ -76,8 +75,6 @@ public class DialogueCombat : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

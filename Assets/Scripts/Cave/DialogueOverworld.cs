@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class DialogueOverworld : MonoBehaviour
 {
@@ -32,8 +33,8 @@ public class DialogueOverworld : MonoBehaviour
             continueButtonText.text = "CONTINUE";
             continueButton.SetActive(true);
 
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.dialogueContinueButton);
         }
 
         if (index == sentences.Length - 1)
@@ -77,8 +78,6 @@ public class DialogueOverworld : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
 
             StartCoroutine(SceneTransition());
 
@@ -87,8 +86,6 @@ public class DialogueOverworld : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class DialogueEndCombat : MonoBehaviour
 {
@@ -25,8 +26,8 @@ public class DialogueEndCombat : MonoBehaviour
             continueButtonText.text = "CONTINUE";
             continueButton.SetActive(true);
 
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(UIManager.instance.awakeDialogueContinueButton);
         }
 
         if (index == sentences.Length - 1)
@@ -67,8 +68,6 @@ public class DialogueEndCombat : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
 
             StartCoroutine(SceneTransition());
 
@@ -77,8 +76,6 @@ public class DialogueEndCombat : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

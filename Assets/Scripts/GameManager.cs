@@ -26,9 +26,6 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
         currentHealth = maxHealth;
-
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -85,9 +82,6 @@ public class GameManager : MonoBehaviour
             UIManager.instance.pauseScreen.SetActive(false);
             song.UnPause();
             Time.timeScale = 1f;
-
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
         }
 
         else
@@ -95,9 +89,6 @@ public class GameManager : MonoBehaviour
             UIManager.instance.pauseScreen.SetActive(true);
             song.Pause();
             Time.timeScale = 0f;
-
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
 
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(UIManager.instance.pauseFirstButton);

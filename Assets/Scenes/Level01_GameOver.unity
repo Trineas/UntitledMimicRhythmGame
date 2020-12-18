@@ -15636,6 +15636,9 @@ MonoBehaviour:
   healthImage: {fileID: 993430165}
   pauseScreen: {fileID: 988532880}
   pauseFirstButton: {fileID: 1614883661}
+  dialogueContinueButton: {fileID: 1109430138}
+  awakeDialogueContinueButton: {fileID: 160356451}
+  difficultyFirstButton: {fileID: 147026845}
   mainMenu: Test
 --- !u!114 &2005206302
 MonoBehaviour:
