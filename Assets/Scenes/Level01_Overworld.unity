@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 63615ab92fa5f284e91a71bd346132e6,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -16108,6 +16108,11 @@ PrefabInstance:
       propertyPath: isInteracting
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3662822102840731042, guid: c5afb49a38d622446ae2fec6553c371a,
+        type: 3}
+      propertyPath: col
+      value: 
+      objectReference: {fileID: 8987567039720943288}
     - target: {fileID: 4764798560733018018, guid: c5afb49a38d622446ae2fec6553c371a,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -16270,3 +16275,9 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.53, z: 4.23}
   m_Center: {x: 0.75, y: 0, z: 0}
+--- !u!65 &8987567039720943288 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 9092717403768273758, guid: c5afb49a38d622446ae2fec6553c371a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8987567039720943285}
+  m_PrefabAsset: {fileID: 0}

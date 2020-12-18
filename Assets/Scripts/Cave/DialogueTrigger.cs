@@ -8,6 +8,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public bool isInteracting;
 
+    public BoxCollider col;
+
     private void Start()
     {
         instance = this;
@@ -27,10 +29,12 @@ public class DialogueTrigger : MonoBehaviour
         if (isInteracting)
         {
             PlayerController.instance.stopMove = true;
+            col.size = new Vector3(0.01f, 0.01f, 0.01f);
         }
         else
         {
             PlayerController.instance.stopMove = false;
+            col.size = new Vector3(2.5f, 1f, 2.5f);
         }
     }
 
