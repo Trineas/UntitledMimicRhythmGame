@@ -1,0 +1,1580 @@
+fileFormatVersion: 2
+guid: 7ec52c1a9e920c94e882cf763240067e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6875795891061513089
+    second: Mimic_Morph_Prince_0
+  - first:
+      213: 1739401509491003500
+    second: Mimic_Morph_Prince_1
+  - first:
+      213: 3215885082058471842
+    second: Mimic_Morph_Prince_2
+  - first:
+      213: -2151777869171375589
+    second: Mimic_Morph_Prince_3
+  - first:
+      213: 2911773819147366431
+    second: Mimic_Morph_Prince_4
+  - first:
+      213: 7770846632148349419
+    second: Mimic_Morph_Prince_5
+  - first:
+      213: 8126945150204205776
+    second: Mimic_Morph_Prince_6
+  - first:
+      213: 7761649122747967581
+    second: Mimic_Morph_Prince_7
+  - first:
+      213: 6981962267893012947
+    second: Mimic_Morph_Prince_8
+  - first:
+      213: -5640943570072404300
+    second: Mimic_Morph_Prince_9
+  - first:
+      213: -8423001480438614794
+    second: Mimic_Morph_Prince_10
+  - first:
+      213: -6470425260409889228
+    second: Mimic_Morph_Prince_11
+  - first:
+      213: -4507305183820023251
+    second: Mimic_Morph_Prince_12
+  - first:
+      213: 568198284503063132
+    second: Mimic_Morph_Prince_13
+  - first:
+      213: -2063389232706776343
+    second: Mimic_Morph_Prince_14
+  - first:
+      213: 7412148240495331078
+    second: Mimic_Morph_Prince_15
+  - first:
+      213: 3456289601557110180
+    second: Mimic_Morph_Prince_16
+  - first:
+      213: -4324278165691557393
+    second: Mimic_Morph_Prince_17
+  - first:
+      213: -1585044376174226143
+    second: Mimic_Morph_Prince_18
+  - first:
+      213: 6431119683893657093
+    second: Mimic_Morph_Prince_19
+  - first:
+      213: -8937225427406704091
+    second: Mimic_Morph_Prince_20
+  - first:
+      213: 8172937689795135474
+    second: Mimic_Morph_Prince_21
+  - first:
+      213: -3600120807731648795
+    second: Mimic_Morph_Prince_22
+  - first:
+      213: -6346287287950255033
+    second: Mimic_Morph_Prince_23
+  - first:
+      213: 3645627125382061265
+    second: Mimic_Morph_Prince_24
+  - first:
+      213: 3024474336462984467
+    second: Mimic_Morph_Prince_25
+  - first:
+      213: -1140408996935920115
+    second: Mimic_Morph_Prince_26
+  - first:
+      213: 5886645007547735719
+    second: Mimic_Morph_Prince_27
+  - first:
+      213: 2792531965553071437
+    second: Mimic_Morph_Prince_28
+  - first:
+      213: 8376589250570278891
+    second: Mimic_Morph_Prince_29
+  - first:
+      213: 806879058226764644
+    second: Mimic_Morph_Prince_30
+  - first:
+      213: -2714167118947862135
+    second: Mimic_Morph_Prince_31
+  - first:
+      213: 6053421772554685265
+    second: Mimic_Morph_Prince_32
+  - first:
+      213: 5692656682288994208
+    second: Mimic_Morph_Prince_33
+  - first:
+      213: -3475359376568892499
+    second: Mimic_Morph_Prince_34
+  - first:
+      213: -4925981929952904826
+    second: Mimic_Morph_Prince_35
+  - first:
+      213: -7682797701464836048
+    second: Mimic_Morph_Prince_36
+  - first:
+      213: -4428818126462453384
+    second: Mimic_Morph_Prince_37
+  - first:
+      213: 4509125560867592541
+    second: Mimic_Morph_Prince_38
+  - first:
+      213: -418638180622404999
+    second: Mimic_Morph_Prince_39
+  - first:
+      213: -2791293259088539433
+    second: Mimic_Morph_Prince_40
+  - first:
+      213: 8504117058578335146
+    second: Mimic_Morph_Prince_41
+  - first:
+      213: -2269402671513016199
+    second: Mimic_Morph_Prince_42
+  - first:
+      213: 4377475427025508187
+    second: Mimic_Morph_Prince_43
+  - first:
+      213: -746500690307738659
+    second: Mimic_Morph_Prince_44
+  - first:
+      213: -4215103521431598865
+    second: Mimic_Morph_Prince_45
+  - first:
+      213: -1755119764740972446
+    second: Mimic_Morph_Prince_46
+  - first:
+      213: -24406808700928057
+    second: Mimic_Morph_Prince_47
+  - first:
+      213: 5427714634638140083
+    second: Mimic_Morph_Prince_48
+  - first:
+      213: -8968069113225426625
+    second: Mimic_Morph_Prince_49
+  - first:
+      213: -2465932711504568366
+    second: Mimic_Morph_Prince_50
+  - first:
+      213: 527799571664317336
+    second: Mimic_Morph_Prince_51
+  - first:
+      213: -3491123267191174424
+    second: Mimic_Morph_Prince_52
+  - first:
+      213: 3280809473933920859
+    second: Mimic_Morph_Prince_53
+  - first:
+      213: 5089848704617964126
+    second: Mimic_Morph_Prince_54
+  - first:
+      213: -8065516910280756990
+    second: Mimic_Morph_Prince_55
+  - first:
+      213: -4556064113217885552
+    second: Mimic_Morph_Prince_56
+  - first:
+      213: 4398839353287396050
+    second: Mimic_Morph_Prince_57
+  - first:
+      213: 1592475924723990960
+    second: Mimic_Morph_Prince_58
+  - first:
+      213: -1619247733460676
+    second: Mimic_Morph_Prince_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74203d01144490a0800000000000000
+      internalID: -6875795891061513089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c605df60578932810800000000000000
+      internalID: 1739401509491003500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9b292917e11ac20800000000000000
+      internalID: 3215885082058471842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_3
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b124e78bd695322e0800000000000000
+      internalID: -2151777869171375589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_4
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10bf8c7cd2b86820800000000000000
+      internalID: 2911773819147366431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_5
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13e3917d797db60800000000000000
+      internalID: 7770846632148349419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_6
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da51034e85b8c070800000000000000
+      internalID: 8126945150204205776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_7
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 14384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d586d9011cae6bb60800000000000000
+      internalID: 7761649122747967581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d991fcc0b9e4e060800000000000000
+      internalID: 6981962267893012947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be7fc3c5b757b1b0800000000000000
+      internalID: -5640943570072404300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4fddfc7cc7b1b80800000000000000
+      internalID: -8423001480438614794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_11
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43edd87e18e6436a0800000000000000
+      internalID: -6470425260409889228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_12
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a7128e0d5d271c0800000000000000
+      internalID: -4507305183820023251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_13
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a9acd4455a2e700800000000000000
+      internalID: 568198284503063132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_14
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e29527dc6e5d53e0800000000000000
+      internalID: -2063389232706776343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_15
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 12384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c241bd8d3dd660800000000000000
+      internalID: 7412148240495331078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad10b5941537ff20800000000000000
+      internalID: 3456289601557110180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe91af75be31df3c0800000000000000
+      internalID: -4324278165691557393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_18
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12597eca98ac00ae0800000000000000
+      internalID: -1585044376174226143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_19
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ef08a674def3950800000000000000
+      internalID: 6431119683893657093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_20
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522b5d143d898f380800000000000000
+      internalID: -8937225427406704091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_21
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f704abd68b1c6170800000000000000
+      internalID: 8172937689795135474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6a9aa133dc90ec0800000000000000
+      internalID: -3600120807731648795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_23
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 10384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd52fe5557de7a0800000000000000
+      internalID: -6346287287950255033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc1def1e8ed79230800000000000000
+      internalID: 3645627125382061265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3155929726719f920800000000000000
+      internalID: 3024474336462984467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0699f63f047c20f0800000000000000
+      internalID: -1140408996935920115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_27
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae95b1127091b150800000000000000
+      internalID: 5886645007547735719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_28
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d6b6f60111c620800000000000000
+      internalID: 2792531965553071437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_29
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7d895da8f9f3470800000000000000
+      internalID: 8376589250570278891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_30
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bde4a7a3c923b00800000000000000
+      internalID: 806879058226764644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_31
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 8384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9893116b267555ad0800000000000000
+      internalID: -2714167118947862135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bccbc9703120450800000000000000
+      internalID: 6053421772554685265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7d6107711600f40800000000000000
+      internalID: 5692656682288994208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_34
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c9cc6f0b05cfc0800000000000000
+      internalID: -3475359376568892499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_35
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f92f988563abb0800000000000000
+      internalID: -4925981929952904826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_36
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038300b1238316590800000000000000
+      internalID: -7682797701464836048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_37
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879f46df06da982c0800000000000000
+      internalID: -4428818126462453384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_38
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d599527aec1a39e30800000000000000
+      internalID: 4509125560867592541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_39
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 6384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972f592fac2b03af0800000000000000
+      internalID: -418638180622404999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0d51cd1955349d0800000000000000
+      internalID: -2791293259088539433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5c6e47861b40670800000000000000
+      internalID: 8504117058578335146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_42
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978e4284b467180e0800000000000000
+      internalID: -2269402671513016199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_43
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b575bd045baefbc30800000000000000
+      internalID: 4377475427025508187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_44
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd39f99c395e3a5f0800000000000000
+      internalID: -746500690307738659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_45
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe842990ea1f085c0800000000000000
+      internalID: -4215103521431598865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_46
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260e85c7fdf84a7e0800000000000000
+      internalID: -1755119764740972446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_47
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 4384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfb745032a49aff0800000000000000
+      internalID: -24406808700928057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2abc3f3bd135b40800000000000000
+      internalID: 5427714634638140083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_49
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39cb0908a40b8380800000000000000
+      internalID: -8968069113225426625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_50
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df11c2934f37cdd0800000000000000
+      internalID: -2465932711504568366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_51
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba7adf9ee135700800000000000000
+      internalID: 527799571664317336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_52
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea08ff92e90d8fc0800000000000000
+      internalID: -3491123267191174424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_53
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a419585d6c78d20800000000000000
+      internalID: 3280809473933920859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_54
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e526c3ffd66c2a640800000000000000
+      internalID: 5089848704617964126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_55
+      rect:
+        serializedVersion: 2
+        x: 14000
+        y: 2384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2013fc06a17811090800000000000000
+      internalID: -8065516910280756990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a2ebdf3db95c0c0800000000000000
+      internalID: -4556064113217885552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_57
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da44b4f511db0d30800000000000000
+      internalID: 4398839353287396050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_58
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1098e8a6c991610800000000000000
+      internalID: 1592475924723990960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Morph_Prince_59
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 384
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c313b028d4f3afff0800000000000000
+      internalID: -1619247733460676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 784e4cbc22bb31146986a768579cde52
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

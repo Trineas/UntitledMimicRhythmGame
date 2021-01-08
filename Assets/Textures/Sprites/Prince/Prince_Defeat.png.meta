@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: e4620f01292c6dc4387efc71c91d8643
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1665683874914722367
+    second: Prince_Defeat_0
+  - first:
+      213: 5820812212106846831
+    second: Prince_Defeat_1
+  - first:
+      213: -4831805179957216737
+    second: Prince_Defeat_2
+  - first:
+      213: 2404711074185085860
+    second: Prince_Defeat_3
+  - first:
+      213: 4423218385719012280
+    second: Prince_Defeat_4
+  - first:
+      213: 4071892018158864121
+    second: Prince_Defeat_5
+  - first:
+      213: -4726908445987710260
+    second: Prince_Defeat_6
+  - first:
+      213: -7771410636251769232
+    second: Prince_Defeat_7
+  - first:
+      213: 6832172622980543814
+    second: Prince_Defeat_8
+  - first:
+      213: -996549595057482815
+    second: Prince_Defeat_9
+  - first:
+      213: -8197774506283538850
+    second: Prince_Defeat_10
+  - first:
+      213: 6703667271679281479
+    second: Prince_Defeat_11
+  - first:
+      213: 3460469032651882375
+    second: Prince_Defeat_12
+  - first:
+      213: 5667640056997738638
+    second: Prince_Defeat_13
+  - first:
+      213: 381752271590132564
+    second: Prince_Defeat_14
+  - first:
+      213: -1466241328663768369
+    second: Prince_Defeat_15
+  - first:
+      213: 2614160692783172151
+    second: Prince_Defeat_16
+  - first:
+      213: 3714794208151721963
+    second: Prince_Defeat_17
+  - first:
+      213: 167028078573742925
+    second: Prince_Defeat_18
+  - first:
+      213: 1471517438214124296
+    second: Prince_Defeat_19
+  - first:
+      213: -7293616653937199927
+    second: Prince_Defeat_20
+  - first:
+      213: -3842431645103858448
+    second: Prince_Defeat_21
+  - first:
+      213: 6952015115483333669
+    second: Prince_Defeat_22
+  - first:
+      213: 8191270404533150626
+    second: Prince_Defeat_23
+  - first:
+      213: 533168142313836182
+    second: Prince_Defeat_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prince_Defeat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd9c97475d42e8e0800000000000000
+      internalID: -1665683874914722367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_1
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6262eeeddda7c050800000000000000
+      internalID: 5820812212106846831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_2
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1af1c0f9caf1fcb0800000000000000
+      internalID: -4831805179957216737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_3
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a300443bff3f5120800000000000000
+      internalID: 2404711074185085860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_4
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb22c4cfad626d30800000000000000
+      internalID: 4423218385719012280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_5
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f68b1a7734428830800000000000000
+      internalID: 4071892018158864121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_6
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccadb1700d5a66eb0800000000000000
+      internalID: -4726908445987710260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_7
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07655867337662490800000000000000
+      internalID: -7771410636251769232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_8
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64577ec5dc0c0de50800000000000000
+      internalID: 6832172622980543814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c31a895c6b8b22f0800000000000000
+      internalID: -996549595057482815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_10
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56673c2587ab3e80800000000000000
+      internalID: -8197774506283538850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_11
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7490bd4bdd5380d50800000000000000
+      internalID: 6703667271679281479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_12
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f7477304e060030800000000000000
+      internalID: 3460469032651882375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_13
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88ff187a9087ae40800000000000000
+      internalID: 5667640056997738638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_14
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b045c1ba14c4500800000000000000
+      internalID: 381752271590132564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_15
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2dff1b74dd6abe0800000000000000
+      internalID: -1466241328663768369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_16
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a4127bc4d574420800000000000000
+      internalID: 2614160692783172151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_17
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7df8686a99d8330800000000000000
+      internalID: 3714794208151721963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b67ea0727615200800000000000000
+      internalID: 167028078573742925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_19
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803bb894051eb6410800000000000000
+      internalID: 1471517438214124296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_20
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c43336eb4ed7ca90800000000000000
+      internalID: -7293616653937199927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_21
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc5ddfd6c0fcaac0800000000000000
+      internalID: -3842431645103858448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_22
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c7870ae48a7060800000000000000
+      internalID: 6952015115483333669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_23
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36e51a80d3da170800000000000000
+      internalID: 8191270404533150626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Defeat_24
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ecb20c991366700800000000000000
+      internalID: 533168142313836182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 705829e04fa7670438c65470f4f8b479
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

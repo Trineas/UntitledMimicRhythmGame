@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: 697c55956be183e4a8dc7bc71e946780
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7621166268965995972
+    second: Mimic_Prince_Special_0
+  - first:
+      213: 2371279203068252905
+    second: Mimic_Prince_Special_1
+  - first:
+      213: -3028947219397435313
+    second: Mimic_Prince_Special_2
+  - first:
+      213: -5066474249505741559
+    second: Mimic_Prince_Special_3
+  - first:
+      213: 988603812578261416
+    second: Mimic_Prince_Special_4
+  - first:
+      213: 1228295735809672760
+    second: Mimic_Prince_Special_5
+  - first:
+      213: -3665357317685375304
+    second: Mimic_Prince_Special_6
+  - first:
+      213: 7677855960226120532
+    second: Mimic_Prince_Special_7
+  - first:
+      213: -1295771332812423710
+    second: Mimic_Prince_Special_8
+  - first:
+      213: 8162045092546061871
+    second: Mimic_Prince_Special_9
+  - first:
+      213: -7801096337796420557
+    second: Mimic_Prince_Special_10
+  - first:
+      213: 4970950682336984327
+    second: Mimic_Prince_Special_11
+  - first:
+      213: -4813561906252587869
+    second: Mimic_Prince_Special_12
+  - first:
+      213: -5789874557963331253
+    second: Mimic_Prince_Special_13
+  - first:
+      213: 1603168003372967070
+    second: Mimic_Prince_Special_14
+  - first:
+      213: 6589747009308882280
+    second: Mimic_Prince_Special_15
+  - first:
+      213: -4125048831856158229
+    second: Mimic_Prince_Special_16
+  - first:
+      213: -176194462725260713
+    second: Mimic_Prince_Special_17
+  - first:
+      213: 4908063768342426605
+    second: Mimic_Prince_Special_18
+  - first:
+      213: -1222629525873505278
+    second: Mimic_Prince_Special_19
+  - first:
+      213: 4760793974306251171
+    second: Mimic_Prince_Special_20
+  - first:
+      213: 4617732453866385782
+    second: Mimic_Prince_Special_21
+  - first:
+      213: -7142338358480663523
+    second: Mimic_Prince_Special_22
+  - first:
+      213: 4702066045731845076
+    second: Mimic_Prince_Special_23
+  - first:
+      213: -2710598903316430079
+    second: Mimic_Prince_Special_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c548ebc752d3c960800000000000000
+      internalID: 7621166268965995972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_1
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e297222fd978e020800000000000000
+      internalID: 2371279203068252905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_2
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40a8605d8407f5d0800000000000000
+      internalID: -3028947219397435313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_3
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905eb8e638440b9b0800000000000000
+      internalID: -5066474249505741559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_4
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9f2500ee938bd00800000000000000
+      internalID: 988603812578261416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_5
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8360014c678cb0110800000000000000
+      internalID: 1228295735809672760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_6
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be0c7080f8022dc0800000000000000
+      internalID: -3665357317685375304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_7
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c4e911593d8a60800000000000000
+      internalID: 7677855960226120532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_8
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edb49d86de740ee0800000000000000
+      internalID: -1295771332812423710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26aded64c8654170800000000000000
+      internalID: 8162045092546061871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_10
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c2b077630fcb390800000000000000
+      internalID: -7801096337796420557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_11
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7ea0fe4d5cf440800000000000000
+      internalID: 4970950682336984327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_12
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac567913fac23db0800000000000000
+      internalID: -4813561906252587869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_13
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49168ef3cb36afa0800000000000000
+      internalID: -5789874557963331253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_14
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94615c1ec89f3610800000000000000
+      internalID: 1603168003372967070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_15
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8657c81bdfb737b50800000000000000
+      internalID: 6589747009308882280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_16
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9d21061f1e0c6c0800000000000000
+      internalID: -4125048831856158229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_17
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75abed5d1180e8df0800000000000000
+      internalID: -176194462725260713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f3074ef1fc1440800000000000000
+      internalID: 4908063768342426605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_19
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc76a8ce8580fe0800000000000000
+      internalID: -1222629525873505278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_20
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1285755ecb11240800000000000000
+      internalID: 4760793974306251171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_21
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671bf74733b751040800000000000000
+      internalID: 4617732453866385782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_22
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0d1dca1151ec90800000000000000
+      internalID: -7142338358480663523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_23
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b54ee728114140800000000000000
+      internalID: 4702066045731845076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mimic_Prince_Special_24
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c247a8a4026ad0800000000000000
+      internalID: -2710598903316430079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4705ac16c4291f34b85c93c8906c2359
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

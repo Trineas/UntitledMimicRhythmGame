@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 82ba52ae31bc21c469c616fe863984c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1531535948132962512
+    second: Prince_Up_0
+  - first:
+      213: 8233073623086206434
+    second: Prince_Up_1
+  - first:
+      213: 3510767861925520002
+    second: Prince_Up_2
+  - first:
+      213: 7426204813959977411
+    second: Prince_Up_3
+  - first:
+      213: 8045916371353423186
+    second: Prince_Up_4
+  - first:
+      213: 8982717558745510766
+    second: Prince_Up_5
+  - first:
+      213: 8778242173562468681
+    second: Prince_Up_6
+  - first:
+      213: -2212410033224377149
+    second: Prince_Up_7
+  - first:
+      213: 4838502394115519941
+    second: Prince_Up_8
+  - first:
+      213: -1080031871728830529
+    second: Prince_Up_9
+  - first:
+      213: 5996011074628890490
+    second: Prince_Up_10
+  - first:
+      213: 1357006919647248169
+    second: Prince_Up_11
+  - first:
+      213: 1363901217004426367
+    second: Prince_Up_12
+  - first:
+      213: 2577629007168923949
+    second: Prince_Up_13
+  - first:
+      213: 7854833084016170153
+    second: Prince_Up_14
+  - first:
+      213: -4067442176254145621
+    second: Prince_Up_15
+  - first:
+      213: 7034086576559164287
+    second: Prince_Up_16
+  - first:
+      213: -9131555176376301949
+    second: Prince_Up_17
+  - first:
+      213: -6358399620394531435
+    second: Prince_Up_18
+  - first:
+      213: 1408509063906959627
+    second: Prince_Up_19
+  - first:
+      213: 4344207512459151520
+    second: Prince_Up_20
+  - first:
+      213: 6503392543961191240
+    second: Prince_Up_21
+  - first:
+      213: 6674192420357402213
+    second: Prince_Up_22
+  - first:
+      213: 5792640354080127762
+    second: Prince_Up_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prince_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0d43594db114510800000000000000
+      internalID: 1531535948132962512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_1
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed01b9e6d0c14270800000000000000
+      internalID: 8233073623086206434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_2
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282ade205c0c8b030800000000000000
+      internalID: 3510767861925520002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_3
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9516dbeed2f0760800000000000000
+      internalID: 7426204813959977411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_4
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d45078f46d8af60800000000000000
+      internalID: 8045916371353423186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_5
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63b0b6f60609ac70800000000000000
+      internalID: 8982717558745510766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_6
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493b8b6fb492d970800000000000000
+      internalID: 8778242173562468681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_7
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc9620fbc0fb41e0800000000000000
+      internalID: -2212410033224377149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_8
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 6529
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5f12eba40d52340800000000000000
+      internalID: 4838502394115519941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b0832cb4f201f0800000000000000
+      internalID: -1080031871728830529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_10
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f209cdd4c163350800000000000000
+      internalID: 5996011074628890490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_11
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f325b8a9e05d210800000000000000
+      internalID: 1357006919647248169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_12
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74954c3eec8de210800000000000000
+      internalID: 1363901217004426367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_13
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29eb07dce395c320800000000000000
+      internalID: 2577629007168923949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_14
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a415ceb219f10d60800000000000000
+      internalID: 7854833084016170153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_15
+      rect:
+        serializedVersion: 2
+        x: 9978
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab0ee314ea8d87c0800000000000000
+      internalID: -4067442176254145621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_16
+      rect:
+        serializedVersion: 2
+        x: 11641
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b072329781e9160800000000000000
+      internalID: 7034086576559164287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_17
+      rect:
+        serializedVersion: 2
+        x: 13304
+        y: 4866
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860639b2f2364180800000000000000
+      internalID: -9131555176376301949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595c766cb3d62c7a0800000000000000
+      internalID: -6358399620394531435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_19
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a711f7870c8310800000000000000
+      internalID: 1408509063906959627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_20
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a806ba47b9b94c30800000000000000
+      internalID: 4344207512459151520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_21
+      rect:
+        serializedVersion: 2
+        x: 4989
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8431bb1ff01b04a50800000000000000
+      internalID: 6503392543961191240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_22
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee10a15ae7f9c50800000000000000
+      internalID: 6674192420357402213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prince_Up_23
+      rect:
+        serializedVersion: 2
+        x: 8315
+        y: 3203
+        width: 1663
+        height: 1663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bf98816b7936050800000000000000
+      internalID: 5792640354080127762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d8fa6f23931becf44ab907bd8b97a4ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
