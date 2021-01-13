@@ -7,25 +7,15 @@ using UnityEngine.EventSystems;
 public class LevelEnd : MonoBehaviour
 {
     public string levelToLoad;
-    public GameObject toBeContinued;
-
-    public GameObject toBeContinuedButton;
 
     IEnumerator LevelTransition()
     {
         DialogueTriggerAfter.instance.isInteracting = true;
-        //UIManager.instance.fadeToBlack = true;
-        toBeContinued.SetActive(true);
-
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(toBeContinuedButton);
-
-        Time.timeScale = 0f;
+        UIManager.instance.fadeToBlack = true;
 
         yield return new WaitForSeconds(4f);
 
-        //SceneManager.LoadScene(levelToLoad);
-
+        SceneManager.LoadScene(levelToLoad);
     }
 
     private void OnTriggerEnter(Collider other)
