@@ -60,12 +60,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void NoteMissed()
-    {
-        currentHealth--;
-        UpdateUI();
-    }
-
     IEnumerator GameOverCo()
     {
         UIManager.instance.fadeToBlack = true;

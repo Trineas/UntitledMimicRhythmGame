@@ -23400,6 +23400,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 55.933334
+    functionName: NoteMissed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 56.266666
     functionName: Hurt
     data: 
@@ -23423,6 +23430,13 @@ AnimationClip:
     messageOptions: 0
   - time: 60.6
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 67.23333
+    functionName: NoteMissed
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23477,6 +23491,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 78.5
+    functionName: NoteMissed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 78.833336
     functionName: Hurt
     data: 
@@ -23526,6 +23547,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 89.933334
+    functionName: NoteMissed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 90.26667
     functionName: Hurt
     data: 
@@ -23556,6 +23584,13 @@ AnimationClip:
     messageOptions: 0
   - time: 94.5
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 103
+    functionName: NoteMissed
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23617,6 +23652,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 135
+    functionName: NoteMissed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 135.33333
     functionName: Hurt
     data: 
@@ -23666,6 +23708,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 146.26666
+    functionName: NoteMissed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 146.6
     functionName: Hurt
     data: 
@@ -23689,6 +23738,13 @@ AnimationClip:
     messageOptions: 0
   - time: 150.8
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 157.5
+    functionName: NoteMissed
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

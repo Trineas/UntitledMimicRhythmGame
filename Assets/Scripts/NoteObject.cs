@@ -53,47 +53,87 @@ public class NoteObject : MonoBehaviour
         }
         else if (Input.GetKeyDown(keyNotToPress[0]))
         {
-            if (canBePressed && doesDamage)
+            if (canBePressed)
             {
-                gameObject.SetActive(false);
-                AudioManager.instance.PlaySFX(missSound);
+                if (doesDamage)
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
 
-                GameManager.instance.NoteMissed();
-                GameManager.instance.playerAnim.SetTrigger("Missed");
+                    //GameManager.instance.NoteMissed();
+                    EnemyHealthManager.instance.notesMissed++;
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
             }
 
         }
         else if (Input.GetKeyDown(keyNotToPress[1]))
         {
-            if (canBePressed && doesDamage)
+            if (canBePressed)
             {
-                gameObject.SetActive(false);
-                AudioManager.instance.PlaySFX(missSound);
+                if (doesDamage)
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
 
-                GameManager.instance.NoteMissed();
-                GameManager.instance.playerAnim.SetTrigger("Missed");
+                    //GameManager.instance.NoteMissed();
+                    EnemyHealthManager.instance.notesMissed++;
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
             }
         }
         else if (Input.GetKeyDown(keyNotToPress[2]))
         {
-            if (canBePressed && doesDamage)
+            if (canBePressed)
             {
-                gameObject.SetActive(false);
-                AudioManager.instance.PlaySFX(missSound);
+                if (doesDamage)
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
 
-                GameManager.instance.NoteMissed();
-                GameManager.instance.playerAnim.SetTrigger("Missed");
+                    //GameManager.instance.NoteMissed();
+                    EnemyHealthManager.instance.notesMissed++;
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
             }
         }
         else if (Input.GetKeyDown(keyNotToPress[3]))
         {
-            if (canBePressed && doesDamage)
+            if (canBePressed)
             {
-                gameObject.SetActive(false);
-                AudioManager.instance.PlaySFX(missSound);
+                if (doesDamage)
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
 
-                GameManager.instance.NoteMissed();
-                GameManager.instance.playerAnim.SetTrigger("Missed");
+                    //GameManager.instance.NoteMissed();
+                    EnemyHealthManager.instance.notesMissed++;
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                    AudioManager.instance.PlaySFX(missSound);
+                    GameManager.instance.playerAnim.SetTrigger("Missed");
+                }
             }
         }
     }
@@ -108,14 +148,26 @@ public class NoteObject : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Activator" && gameObject.activeSelf && doesDamage)
+        if (other.tag == "Activator" && gameObject.activeSelf)
         {
-            canBePressed = false;
-            GameManager.instance.NoteMissed();
-            GameManager.instance.playerAnim.SetTrigger("Missed");
+            if (doesDamage)
+            {
+                canBePressed = false;
+                //GameManager.instance.NoteMissed();
+                EnemyHealthManager.instance.notesMissed++;
+                GameManager.instance.playerAnim.SetTrigger("Missed");
 
-            //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
-            AudioManager.instance.PlaySFX(missSound);
+                //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+                AudioManager.instance.PlaySFX(missSound);
+            }
+            else
+            {
+                canBePressed = false;
+                GameManager.instance.playerAnim.SetTrigger("Missed");
+
+                //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+                AudioManager.instance.PlaySFX(missSound);
+            }
         }
     }
 }

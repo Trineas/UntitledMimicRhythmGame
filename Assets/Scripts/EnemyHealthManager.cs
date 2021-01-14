@@ -11,6 +11,8 @@ public class EnemyHealthManager : MonoBehaviour
     public Image mask, fill;
     public Color color;
 
+    public int notesMissed;
+
     void Start()
     {
         instance = this;
@@ -44,6 +46,20 @@ public class EnemyHealthManager : MonoBehaviour
         mask.fillAmount = fillAmount;
 
         fill.color = color;
+    }
+
+    public void NoteMissed()
+    {
+        if (notesMissed > 1)
+        {
+            GameManager.instance.currentHealth--;
+            GameManager.instance.UpdateUI();
+            notesMissed = 0;
+        }
+        else
+        {
+            notesMissed = 0;
+        }
     }
 
     public void Hurt()
