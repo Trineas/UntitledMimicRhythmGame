@@ -22919,6 +22919,7 @@ MonoBehaviour:
   mask: {fileID: 1405308531}
   fill: {fileID: 1206933552}
   color: {r: 0.32941177, g: 1, b: 0, a: 0}
+  notesMissed: 0
 --- !u!114 &1704569043
 MonoBehaviour:
   m_ObjectHideFlags: 0
