@@ -23344,8 +23344,64 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 7.233333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 9
     functionName: NextTutorialSentence
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 9.566667
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12.866667
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 15.2
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 18.533333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 20.7
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 24.033333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 25.866667
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23400,6 +23456,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 50.133335
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 55.433334
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 55.933334
     functionName: NoteMissed
     data: 
@@ -23430,6 +23500,20 @@ AnimationClip:
     messageOptions: 0
   - time: 60.6
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 61.433334
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 66.73333
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23491,6 +23575,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 72.73333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 78
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 78.5
     functionName: NoteMissed
     data: 
@@ -23547,6 +23645,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 84
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 89.433334
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 89.933334
     functionName: NoteMissed
     data: 
@@ -23589,6 +23701,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 95.333336
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 102.5
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 103
     functionName: NoteMissed
     data: 
@@ -23597,7 +23723,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 104
-    functionName: TriggerFadeIn
+    functionName: TriggerFadeInButtonsOnly
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23605,6 +23731,34 @@ AnimationClip:
     messageOptions: 0
   - time: 105.23333
     functionName: StartDialogue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 114.36667
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 116.7
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 119.96667
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 122.3
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23647,6 +23801,20 @@ AnimationClip:
     messageOptions: 0
   - time: 128.23334
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 129.06667
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 134.5
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23708,6 +23876,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 140.33333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 145.76666
+    functionName: TutorialHurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 146.26666
     functionName: NoteMissed
     data: 
@@ -23738,6 +23920,20 @@ AnimationClip:
     messageOptions: 0
   - time: 150.8
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 151.63333
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 157
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -23794,6 +23990,20 @@ AnimationClip:
     messageOptions: 0
   - time: 162.13333
     functionName: Hurt
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 162.96666
+    functionName: PlayCue
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 169
+    functionName: TutorialHurt
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

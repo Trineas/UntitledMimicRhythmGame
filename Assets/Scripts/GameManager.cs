@@ -22,8 +22,11 @@ public class GameManager : MonoBehaviour
     private int maxHealth = 5;
     public Sprite[] healthBarImages;
 
+    public AudioSource backgroundMusic;
+
     void Start()
     {
+        backgroundMusic.Play();
         instance = this;
         currentHealth = maxHealth;
     }
@@ -43,6 +46,7 @@ public class GameManager : MonoBehaviour
         {
             BeatScroller.instance.hasStarted = true;
 
+            backgroundMusic.Stop();
             song.Play();
             enemyAnim.SetTrigger("Set 01");
             startPlaying = false;

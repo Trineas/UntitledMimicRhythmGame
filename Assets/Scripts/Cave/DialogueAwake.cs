@@ -58,6 +58,7 @@ public class DialogueAwake : MonoBehaviour
         foreach (char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
+            AudioManager.instance.PlaySFX(Random.Range(8, 10));
             yield return new WaitForSeconds(typingSpeed);
         }
     }

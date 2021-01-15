@@ -11,6 +11,8 @@ public class EnemyHealthManager : MonoBehaviour
     public Image mask, fill;
     public Color color;
 
+    public Light playerLight;
+
     public int notesMissed;
 
     void Start()
@@ -50,7 +52,7 @@ public class EnemyHealthManager : MonoBehaviour
 
     public void NoteMissed()
     {
-        if (notesMissed > 1)
+        if (notesMissed >= 1)
         {
             GameManager.instance.currentHealth--;
             GameManager.instance.UpdateUI();
@@ -65,5 +67,6 @@ public class EnemyHealthManager : MonoBehaviour
     public void Hurt()
     {
         current -= damagePerHit;
+        playerLight.intensity = 0f;
     }
 }

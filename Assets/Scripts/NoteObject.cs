@@ -60,7 +60,6 @@ public class NoteObject : MonoBehaviour
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
 
-                    //GameManager.instance.NoteMissed();
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
                 }
@@ -82,7 +81,6 @@ public class NoteObject : MonoBehaviour
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
 
-                    //GameManager.instance.NoteMissed();
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
                 }
@@ -103,7 +101,6 @@ public class NoteObject : MonoBehaviour
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
 
-                    //GameManager.instance.NoteMissed();
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
                 }
@@ -124,7 +121,6 @@ public class NoteObject : MonoBehaviour
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
 
-                    //GameManager.instance.NoteMissed();
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
                 }
@@ -153,7 +149,6 @@ public class NoteObject : MonoBehaviour
             if (doesDamage)
             {
                 canBePressed = false;
-                //GameManager.instance.NoteMissed();
                 EnemyHealthManager.instance.notesMissed++;
                 GameManager.instance.playerAnim.SetTrigger("Missed");
 
