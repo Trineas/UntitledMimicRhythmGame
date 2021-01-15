@@ -10,7 +10,8 @@ public class NoteObject : MonoBehaviour
     public int buttonSoundToPlay, missSound;
 
     public bool doesDamage;
-    //public GameObject hitEffect, missEffect;
+    public GameObject hitEffect, goodEffect, perfectEffect, missEffect;
+    public GameObject effectSlot;
 
     void Update()
     {
@@ -26,29 +27,41 @@ public class NoteObject : MonoBehaviour
                 if (keyToPress == KeyCode.LeftArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Left");
+                    effectSlot.transform.localPosition = new Vector3(-0.5f, 0f, -0.45f);
                 }
                 else if (keyToPress == KeyCode.RightArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Right");
+                    effectSlot.transform.localPosition = new Vector3(1f, 0f, -0.15f);
                 }
                 else if (keyToPress == KeyCode.DownArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Down");
+                    effectSlot.transform.localPosition = new Vector3(0.1f, -1f, -0.15f);
                 }
                 else if (keyToPress == KeyCode.UpArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Up");
+                    effectSlot.transform.localPosition = new Vector3(0.1f, 1f, -0.15f);
                 }
                 else if (keyToPress == KeyCode.Space)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Space");
+                    effectSlot.transform.localPosition = new Vector3(0.1f, 0f, -0.15f);
                 }
 
-                // Set hit accuracy
-                /*if (Mathf.Abs(transform.position.y) >= 0.25)
+                if (Mathf.Abs(transform.position.y) > 0.25f)
                 {
-                    Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
-                }*/
+                    Instantiate(hitEffect, effectSlot.transform.position, hitEffect.transform.rotation);
+                }
+                else if (Mathf.Abs(transform.position.y) > 0.05f)
+                {
+                    Instantiate(goodEffect, effectSlot.transform.position, goodEffect.transform.rotation);
+                }
+                else
+                {
+                    Instantiate(perfectEffect, effectSlot.transform.position, perfectEffect.transform.rotation);
+                }
             }
         }
         else if (Input.GetKeyDown(keyNotToPress[0]))
@@ -62,12 +75,14 @@ public class NoteObject : MonoBehaviour
 
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
                 else
                 {
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
             }
 
@@ -83,12 +98,14 @@ public class NoteObject : MonoBehaviour
 
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
                 else
                 {
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
             }
         }
@@ -103,12 +120,14 @@ public class NoteObject : MonoBehaviour
 
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
                 else
                 {
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
             }
         }
@@ -123,12 +142,14 @@ public class NoteObject : MonoBehaviour
 
                     EnemyHealthManager.instance.notesMissed++;
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
                 else
                 {
                     gameObject.SetActive(false);
                     AudioManager.instance.PlaySFX(missSound);
                     GameManager.instance.playerAnim.SetTrigger("Missed");
+                    Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 }
             }
         }
@@ -152,7 +173,7 @@ public class NoteObject : MonoBehaviour
                 EnemyHealthManager.instance.notesMissed++;
                 GameManager.instance.playerAnim.SetTrigger("Missed");
 
-                //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+                Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 AudioManager.instance.PlaySFX(missSound);
             }
             else
@@ -160,7 +181,7 @@ public class NoteObject : MonoBehaviour
                 canBePressed = false;
                 GameManager.instance.playerAnim.SetTrigger("Missed");
 
-                //Instantiate(missEffect, transform.position, hitEffect.transform.rotation);
+                Instantiate(missEffect, effectSlot.transform.position, missEffect.transform.rotation);
                 AudioManager.instance.PlaySFX(missSound);
             }
         }

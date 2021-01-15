@@ -349,6 +349,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &9302201
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -611,6 +620,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &29066579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1464,6 +1482,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &91524783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2481,6 +2508,12 @@ Transform:
   m_Father: {fileID: 878505353}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &159237471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4957528028594718213, guid: f6de665b69132e1459613ffd52551093,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351645509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &159345567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3665,6 +3698,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &242533371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4086,6 +4128,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &278362208
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4213,6 +4264,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &278875700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4648,6 +4708,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &303313012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4821,6 +4890,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &311806572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5827,6 +5905,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &351755420
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6065,6 +6152,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &396007535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6192,6 +6288,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &399813995
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6335,6 +6440,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &409800635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6909,6 +7023,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &445818393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7066,6 +7189,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &448020605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7369,6 +7501,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &450985998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7512,6 +7653,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &472319150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8973,6 +9123,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &632215943
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9195,6 +9354,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &648297815
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9396,6 +9564,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &662536016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9523,6 +9700,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &663795501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9927,6 +10113,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &710401434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10098,6 +10293,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &719396115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11393,6 +11597,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &824605417
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12154,6 +12367,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &882968729
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12592,6 +12814,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &922001948
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12719,6 +12950,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &936199166
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12952,6 +13192,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &947733896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13268,6 +13517,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &979841597
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13478,6 +13736,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &982320688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13948,6 +14215,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1011999240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14075,6 +14351,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1015080110
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14232,6 +14517,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1033641113
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14375,6 +14669,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1048153381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14502,6 +14805,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1049304726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14830,6 +15142,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1093881095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14957,6 +15278,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1101758876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15269,6 +15599,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1144683793
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15440,6 +15779,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1154676427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15857,6 +16205,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1204585897
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16058,6 +16415,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1210515871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16289,6 +16655,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1229711425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16525,6 +16900,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1234958546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17010,6 +17394,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1315586770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17425,12 +17818,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6de665b69132e1459613ffd52551093, type: 3}
---- !u!4 &1351645510 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5638030705841030383, guid: f6de665b69132e1459613ffd52551093,
-    type: 3}
-  m_PrefabInstance: {fileID: 1351645509}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1357454459
 GameObject:
   m_ObjectHideFlags: 0
@@ -17554,6 +17941,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1369774158
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19686,6 +20082,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 0
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1517262608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19829,6 +20234,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1518257581
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20813,6 +21227,15 @@ MonoBehaviour:
   buttonSoundToPlay: 4
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1580901801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21573,98 +21996,12 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1970452611}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1625320654
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1625320655}
-  - component: {fileID: 1625320656}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1625320655
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625320654}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.65, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1351645510}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 70.952, y: 0, z: 0}
---- !u!108 &1625320656
+--- !u!108 &1625320656 stripped
 Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2534471850212023785, guid: f6de665b69132e1459613ffd52551093,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351645509}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625320654}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
-  m_Intensity: 0
-  m_Range: 10
-  m_SpotAngle: 51.22829
-  m_InnerSpotAngle: 43.030373
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.02
-    m_NormalBias: 0.1
-    m_NearPlane: 0.1
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &1630568077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22328,6 +22665,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1671109242
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23147,6 +23493,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1724061909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23326,6 +23681,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1750244950
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23647,6 +24011,15 @@ MonoBehaviour:
   buttonSoundToPlay: 3
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1782532450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24810,6 +25183,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1911775277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25495,6 +25877,15 @@ MonoBehaviour:
   buttonSoundToPlay: 0
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &1958564790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25966,6 +26357,15 @@ MonoBehaviour:
   buttonSoundToPlay: 1
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &2023080486
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26526,6 +26926,15 @@ MonoBehaviour:
   buttonSoundToPlay: 2
   missSound: 6
   doesDamage: 1
+  hitEffect: {fileID: 5208107408079034295, guid: f5e3bdf192818624990e33c6cd6042a3,
+    type: 3}
+  goodEffect: {fileID: 3528200286054435603, guid: 9569259700757164f85704f19c1bdd79,
+    type: 3}
+  perfectEffect: {fileID: 1161588729511042341, guid: 694799fcbafd25e45b323e7f30887ff5,
+    type: 3}
+  missEffect: {fileID: 3648045536751135794, guid: ffda403981e8ea34aaee5e53880a6227,
+    type: 3}
+  effectSlot: {fileID: 159237471}
 --- !u!212 &2049142166
 SpriteRenderer:
   m_ObjectHideFlags: 0
