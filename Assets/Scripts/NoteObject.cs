@@ -32,17 +32,17 @@ public class NoteObject : MonoBehaviour
                 else if (keyToPress == KeyCode.RightArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Right");
-                    effectSlot.transform.localPosition = new Vector3(1f, 0f, -0.15f);
+                    effectSlot.transform.localPosition = new Vector3(0.75f, 0f, -0.15f);
                 }
                 else if (keyToPress == KeyCode.DownArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Down");
-                    effectSlot.transform.localPosition = new Vector3(0.1f, -1f, -0.15f);
+                    effectSlot.transform.localPosition = new Vector3(0.1f, -0.75f, -0.15f);
                 }
                 else if (keyToPress == KeyCode.UpArrow)
                 {
                     GameManager.instance.playerAnim.SetTrigger("Up");
-                    effectSlot.transform.localPosition = new Vector3(0.1f, 1f, -0.15f);
+                    effectSlot.transform.localPosition = new Vector3(0.25f, 0.75f, -0.45f);
                 }
                 else if (keyToPress == KeyCode.Space)
                 {

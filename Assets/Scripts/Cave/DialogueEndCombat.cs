@@ -32,7 +32,7 @@ public class DialogueEndCombat : MonoBehaviour
 
         if (index == sentences.Length - 1)
         {
-            continueButtonText.text = "CONTINUE";
+            continueButtonText.text = "END";
         }
     }
 

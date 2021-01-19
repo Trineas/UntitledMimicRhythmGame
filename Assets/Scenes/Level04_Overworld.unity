@@ -2402,7 +2402,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3dfc32a3bb486084f8e5a94fbb70a5ad, type: 3}
   - {fileID: 21300000, guid: 5b8f0839d716af242a6c995185031452, type: 3}
   - {fileID: 21300000, guid: 881a42d50e3e23a4db133004adc39d00, type: 3}
-  backgroundMusic: {fileID: 490203955}
+  backgroundMusic: {fileID: 1175608876}
 --- !u!4 &359862820
 Transform:
   m_ObjectHideFlags: 0
@@ -3091,12 +3091,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4770f2efa5f445441ada126f96645d92, type: 3}
---- !u!82 &490203955 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8875067604644187593, guid: 4770f2efa5f445441ada126f96645d92,
-    type: 3}
-  m_PrefabInstance: {fileID: 490203954}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &490233614
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7021,12 @@ Transform:
   m_Father: {fileID: 721324488}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1175608876 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 284691705966514733, guid: 4770f2efa5f445441ada126f96645d92,
+    type: 3}
+  m_PrefabInstance: {fileID: 490203954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1196123109
 GameObject:
   m_ObjectHideFlags: 0
@@ -10053,8 +10053,7 @@ MonoBehaviour:
   - '"Now, now." Said the Prince, wiggling his finger. "I guess I will have to teach
     you a lesson then! En garde!"'
   index: 0
-  typingSpeed: 0.05
-  typingSound: 7
+  typingSpeed: 0.04
   levelToLoad: Level04_Combat
   continueButton: {fileID: 1109430138}
   continueButtonText: {fileID: 1109430141}
@@ -10090,8 +10089,7 @@ MonoBehaviour:
   - The Mimic finally arrived at the Castle.
   - It knew it was very close to getting it's chest back now.
   index: 0
-  typingSpeed: 0.05
-  typingSound: 7
+  typingSpeed: 0.04
   continueButton: {fileID: 160356451}
   continueButtonText: {fileID: 160356452}
 --- !u!1001 &1881197668

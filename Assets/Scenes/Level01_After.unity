@@ -16169,8 +16169,7 @@ MonoBehaviour:
   sentences:
   - The Guardian was breathing heavily, leaving nobody to stop the Mimic from leaving.
   index: 0
-  typingSpeed: 0.05
-  typingSound: 7
+  typingSpeed: 0.04
   continueButton: {fileID: 1109430138}
   continueButtonText: {fileID: 1109430141}
 --- !u!4 &1880714656

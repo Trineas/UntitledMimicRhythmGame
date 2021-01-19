@@ -16504,7 +16504,7 @@ MonoBehaviour:
   - '"...Huuuuh?" the towering Guard grunted as it slowly turned around.'
   - '"You no go anywhere!" it shouted while it leaned down to face the Mimic.'
   index: 0
-  typingSpeed: 0.05
+  typingSpeed: 0.04
   levelToLoad: Level01_Combat
   continueButton: {fileID: 1109430138}
   continueButtonText: {fileID: 1109430141}
@@ -16542,7 +16542,7 @@ MonoBehaviour:
   - It knew it could use the Arrow Keys to navigate the cave.
   - The Mimic was.....
   index: 0
-  typingSpeed: 0.05
+  typingSpeed: 0.04
   continueButton: {fileID: 160356451}
   continueButtonText: {fileID: 160356452}
 --- !u!1 &1888169186

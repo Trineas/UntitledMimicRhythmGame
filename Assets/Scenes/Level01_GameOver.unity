@@ -14385,8 +14385,7 @@ MonoBehaviour:
   - '"Back for more, little Mimic?" cackled the Guardian, as it readied itself once
     more.'
   index: 0
-  typingSpeed: 0.05
-  typingSound: 7
+  typingSpeed: 0.04
   levelToLoad: Level01_Combat
   continueButton: {fileID: 1109430138}
   continueButtonText: {fileID: 1109430141}
@@ -14424,8 +14423,7 @@ MonoBehaviour:
   - It knew it could use the Arrow Keys to move around and leave its home.
   - The Mimic was..... CAUTIOUS (Easy) / CONFIDENT (Normal) about starting its quest.
   index: 0
-  typingSpeed: 0.05
-  typingSound: 7
+  typingSpeed: 0.04
   continueButton: {fileID: 160356451}
   continueButtonText: {fileID: 160356452}
 --- !u!1 &1888568700
