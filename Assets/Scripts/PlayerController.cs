@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     public Transform camTarget;
     public float aheadAmount, aheadSpeed;
 
-    public bool canInteract;
+    public bool canInteract, canInteractWithChest;
     public bool stopMove;
 
     public GameObject speechEffect;
