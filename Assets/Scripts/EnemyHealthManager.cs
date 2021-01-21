@@ -8,12 +8,14 @@ public class EnemyHealthManager : MonoBehaviour
     public static EnemyHealthManager instance;
 
     public int maximum, current, minimum, damagePerHit;
-    public Image mask, fill;
+    public Image mask, fill, backdrop;
     public Color color;
 
     public Light playerLight;
 
     public int notesMissed;
+
+    public bool guardian, prince;
 
     void Start()
     {
@@ -25,19 +27,38 @@ public class EnemyHealthManager : MonoBehaviour
         GetCurrentFill();
 
         //int percentage = current / maximum * 100;
+        if (guardian)
+        {
+            if (current <= 245 && current > 123)
+            {
+                color = Color.yellow;
+            }
+            else if (current <= 123)
+            {
+                color = Color.red;
+            }
+            else
+            {
+                color = Color.green;
+            }
+        }
+        else if (prince)
+        {
+            if (current <= 440 && current > 220)
+            {
+                color = Color.yellow;
+            }
+            else if (current <= 220)
+            {
+                color = Color.red;
+            }
+            else
+            {
+                color = Color.green;
+            }
+        }
 
-        if (current <= 300 && current > 150)
-        {
-            color = Color.yellow;
-        }
-        else if (current <= 150)
-        {
-            color = Color.red;
-        }
-        else
-        {
-            color = Color.green;
-        }
+
     }
 
     private void GetCurrentFill()
@@ -48,6 +69,7 @@ public class EnemyHealthManager : MonoBehaviour
         mask.fillAmount = fillAmount;
 
         fill.color = color;
+        backdrop.color = color;
     }
 
     public void NoteMissed()

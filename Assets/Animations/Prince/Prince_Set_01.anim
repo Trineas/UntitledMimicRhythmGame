@@ -25002,7 +25002,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 82.666664
+  - time: 83.333336
     functionName: StartDialogue
     data: 
     objectReferenceParameter: {fileID: 0}
