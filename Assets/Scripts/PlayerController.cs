@@ -87,9 +87,14 @@ public class PlayerController : MonoBehaviour
             speechEffect.SetActive(true);
         }
 
-        if (speechEffect.activeInHierarchy && !canInteract)
+        if (speechEffect.activeInHierarchy && !canInteract && !canInteractWithChest)
         {
             speechEffect.SetActive(false);
+        }
+
+        if (canInteractWithChest)
+        {
+            speechEffect.SetActive(true);
         }
     }
 }
