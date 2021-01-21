@@ -35,7 +35,21 @@ public class DialogueMidCombat : MonoBehaviour
         StartCoroutine(Type());
     }
 
-    public void TriggerFadeIn()
+    public void NextMidSentence()
+    {
+        if (index < sentences.Length - 1)
+        {
+            index++;
+            textDisplay.text = "";
+            StartCoroutine(Type());
+        }
+        else
+        {
+            textDisplay.text = "";
+        }
+    }
+
+        public void TriggerFadeIn()
     {
         if (!DifficultyChoice.easyMode)
         {

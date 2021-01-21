@@ -44,11 +44,11 @@ public class EnemyHealthManager : MonoBehaviour
         }
         else if (prince)
         {
-            if (current <= 440 && current > 220)
+            if (current <= 445 && current > 227)
             {
                 color = Color.yellow;
             }
-            else if (current <= 220)
+            else if (current <= 227)
             {
                 color = Color.red;
             }

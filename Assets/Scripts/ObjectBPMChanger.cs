@@ -6,21 +6,11 @@ public class ObjectBPMChanger : MonoBehaviour
 {
     public Animator[] anim;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void ChangeBPM()
     {
         for (int i = 0; i < anim.Length; i++)
         {
-            anim[i].SetFloat("Speed", 2f);
+            anim[i].SetFloat("Speed", 4.25f);
         }
     }
 
