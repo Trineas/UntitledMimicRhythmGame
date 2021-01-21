@@ -12,12 +12,11 @@ public class DifficultyChoice : MonoBehaviour
     public static bool buttonsActive;
     public static bool buttonsAreActive;
 
-    /* For Testing Purposes
+    //For Testing Purposes
     private void Start()
     {
         easyMode = true;
     }
-    */
 
     private void Update()
     {
