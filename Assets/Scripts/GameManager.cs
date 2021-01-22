@@ -58,6 +58,11 @@ public class GameManager : MonoBehaviour
             PauseUnpause();
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
         if (currentHealth <= 0)
         {
             StartCoroutine(GameOverCo());

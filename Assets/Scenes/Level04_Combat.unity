@@ -3992,7 +3992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   song: {fileID: 1652890500}
   startPlaying: 0
-  levelToLoad: Level01_GameOver
+  levelToLoad: Level04_GameOver
   currentPositionInSong: 0
   playerAnim: {fileID: 25313824}
   enemyAnim: {fileID: 5638030706736958992}
