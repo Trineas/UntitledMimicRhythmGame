@@ -20172,9 +20172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 844893252}
   sentences:
-  - '"Hufff.... Hufff... I''m... just.... getting started..." the Prince wheezed
-    while his face was flushed red thanks to the unexpected workout in his solid
-    gold armor.'
+  - '"Huff.... Huff... I''m... just.... getting started..." the Prince wheezed while
+    his face was flushed a fiery red after the intense workout in his solid gold
+    armor.'
   index: 0
   typingSpeed: 0.04
   levelToLoad: Level04_After
@@ -20192,8 +20192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6601068701fd67a459e77ab5068ac54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximum: 910
-  current: 910
+  maximum: 930
+  current: 930
   minimum: 0
   damagePerHit: 10
   mask: {fileID: 1405308531}
@@ -20220,9 +20220,10 @@ MonoBehaviour:
   sentences:
   - '"Ohoho! Not bad, little one! I''m impressed!" the Prince cackled happily as
     he applauded the Mimic.'
-  - '"I looted this chest fair and square! If you want it back that badly, you will
-    have to do better than that!" the Prince proclaimed.'
-  - '"Now then, shall we get back to it?" he asked, beckoning his foe.'
+  - '"I looted this chest fair and square! If you want it back that badly you will
+    have to do better than that!" the Prince boldly proclaimed.'
+  - '"Now then, shall we get back to it?" he asked, beckoning his foe to get ready
+    for the next round.'
   index: 0
   typingSpeed: 0.04
   cueSound: 5
@@ -20374,7 +20375,7 @@ MonoBehaviour:
   textDisplay: {fileID: 6767316}
   sentences:
   - The Prince laughed heartily. "What an adorable little magic trick, but do you
-    have what it takes to keep up with me?" he said confidently.
+    have what it takes to keep up with me?" he asked.
   - '"...!" squeeled the Mimic, angrily staring at the Prince while waiting for him
     to make the first move.'
   - '"Well, no matter! Let us fight!" the Prince said, eagerly grinning at the Mimic.'

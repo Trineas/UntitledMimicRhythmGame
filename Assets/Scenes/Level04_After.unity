@@ -9593,8 +9593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 232376544}
   sentences:
-  - The Prince was staring at nothing and wheezing heavily, his face flushed from
-    the unexpected workout in his solid gold armor.
+  - The Prince was too busy trying to get out of his boiling hot armor to pay any
+    attention to the Mimic.
   index: 0
   typingSpeed: 0.04
   continueButton: {fileID: 1109430138}

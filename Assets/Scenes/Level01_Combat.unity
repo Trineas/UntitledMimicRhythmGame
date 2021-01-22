@@ -23438,7 +23438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 6767316}
   sentences:
-  - The Mimic watched the Guardian carefully, as it had no means to attack on it's
+  - The Mimic watched the Guardian carefully, as it had no means to attack on its
     own.
   - Whenever the Guardian moved, it tried to imitate the same attack after by pressing
     the corresponding Arrow Key in time with the beat.

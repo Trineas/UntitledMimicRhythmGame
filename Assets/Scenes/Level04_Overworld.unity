@@ -10054,7 +10054,7 @@ MonoBehaviour:
   textDisplay: {fileID: 232376544}
   sentences:
   - The Mimic finally arrived at the Castle.
-  - It knew it was very close to getting it's chest back now.
+  - It knew it was very close to getting its chest back now.
   index: 0
   typingSpeed: 0.04
   continueButton: {fileID: 160356451}

@@ -29,11 +29,11 @@ public class EnemyHealthManager : MonoBehaviour
         //int percentage = current / maximum * 100;
         if (guardian)
         {
-            if (current <= 245 && current > 123)
+            if (current <= 240 && current > 120)
             {
                 color = Color.yellow;
             }
-            else if (current <= 123)
+            else if (current <= 12)
             {
                 color = Color.red;
             }
@@ -44,11 +44,11 @@ public class EnemyHealthManager : MonoBehaviour
         }
         else if (prince)
         {
-            if (current <= 445 && current > 227)
+            if (current <= 460 && current > 230)
             {
                 color = Color.yellow;
             }
-            else if (current <= 227)
+            else if (current <= 230)
             {
                 color = Color.red;
             }
