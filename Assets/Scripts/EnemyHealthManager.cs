@@ -33,7 +33,7 @@ public class EnemyHealthManager : MonoBehaviour
             {
                 color = Color.yellow;
             }
-            else if (current <= 12)
+            else if (current <= 120)
             {
                 color = Color.red;
             }

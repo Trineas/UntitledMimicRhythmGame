@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
@@ -10,9 +11,10 @@ public class Credits : MonoBehaviour
 
     public Image mimicScreen, theEndScreen, creditsScreen, secondCreditsScreen;
     public TextMeshProUGUI text;
-
     public float blackScreenFadeSpeed = 0.5f;
     public bool fadeToMimic, fadeToEnd, fadeToCredits, fadeFromCredits, fadeToSecondCredits, fadeFromText;
+
+    public bool isWebGl;
 
     void Start()
     {
@@ -109,6 +111,14 @@ public class Credits : MonoBehaviour
         yield return new WaitForSeconds(8f);
         UIManager.instance.fadeToBlack = true;
         yield return new WaitForSeconds(3f);
-        Quit();
+
+        if (isWebGl)
+        {
+            SceneManager.LoadScene("Level01_Overworld");
+        }
+        else
+        {
+            Quit();
+        }
     }
 }

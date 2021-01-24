@@ -12,11 +12,7 @@ public class DifficultyChoice : MonoBehaviour
     public static bool buttonsActive;
     public static bool buttonsAreActive;
 
-    //For Testing Purposes
-    /*private void Start()
-    {
-        easyMode = true;
-    }*/
+    public bool debugMode;
 
     private void Update()
     {
@@ -38,6 +34,11 @@ public class DifficultyChoice : MonoBehaviour
             buttonsAreActive = false;
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(UIManager.instance.difficultyFirstButton);
+        }
+
+        if (debugMode)
+        {
+            easyMode = true;
         }
     }
 
